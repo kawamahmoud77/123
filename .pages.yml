@@ -1,0 +1,213 @@
+media:
+  input: images/uploads
+  output: /images/uploads
+  rename: safe
+  categories: [image]
+
+content:
+  - name: site
+    label: Website content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: business
+        label: Business details
+        type: object
+        fields:
+          - { name: businessName, label: Business name, type: string }
+          - { name: shortName, label: Short name, type: string }
+          - { name: tagline, label: Tagline / area, type: string }
+          - { name: logoInitials, label: Logo initials, type: string }
+          - { name: phoneDisplay, label: Phone display, type: string }
+          - { name: phoneTel, label: Phone link number, type: string }
+          - { name: whatsappNumber, label: WhatsApp number, type: string }
+          - { name: whatsappMessage, label: WhatsApp opening message, type: string }
+          - { name: email, label: Email, type: string }
+          - { name: websiteUrl, label: Website URL, type: string }
+          - { name: facebookUrl, label: Facebook page URL, type: string, required: false }
+          - { name: messengerUrl, label: Messenger URL, type: string, required: false }
+          - { name: serviceArea, label: Service area, type: string }
+          - { name: yearFoundedText, label: Experience text, type: string }
+          - { name: footerYear, label: Footer year, type: string }
+
+      - name: seo
+        label: SEO
+        type: object
+        fields:
+          - { name: pageTitle, label: Page title, type: string }
+          - { name: description, label: Google description, type: text }
+
+      - name: hero
+        label: Hero section
+        type: object
+        fields:
+          - { name: badge, label: Badge, type: string }
+          - { name: headlineLine1, label: Headline line 1, type: string }
+          - { name: headlineLine2, label: Headline line 2, type: string }
+          - { name: highlightWord, label: Highlighted word, type: string, required: false }
+          - { name: intro, label: Intro text, type: text }
+          - { name: image, label: Hero photo, type: image, required: false }
+          - { name: imageAlt, label: Hero photo alt text, type: string, required: false }
+          - { name: imagePlaceholderTitle, label: Placeholder title, type: string, required: false }
+          - { name: imagePlaceholderText, label: Placeholder text, type: string, required: false }
+          - name: stats
+            label: Stats
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{number} - {label}"
+            fields:
+              - { name: number, label: Number / word, type: string }
+              - { name: label, label: Label, type: string }
+
+      - name: trustPoints
+        label: Trust points
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: string }
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              values: [star, check, home, clock]
+
+      - name: servicesSection
+        label: Services section
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - name: services
+            label: Services
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Service title, type: string }
+              - { name: description, label: Description, type: text }
+              - name: icon
+                label: Icon
+                type: select
+                options:
+                  values: [walls, home, roller, ceiling, tools, finish]
+
+      - name: about
+        label: About section
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - { name: image, label: Photo, type: image, required: false }
+          - { name: imageAlt, label: Photo alt text, type: string, required: false }
+          - { name: imagePlaceholderTitle, label: Placeholder title, type: string, required: false }
+          - { name: imagePlaceholderText, label: Placeholder text, type: string, required: false }
+          - name: bullets
+            label: Bullet points
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Bold part, type: string }
+              - { name: text, label: Normal text, type: text }
+
+      - name: gallerySection
+        label: Gallery section
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - name: items
+            label: Gallery photos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+            fields:
+              - { name: caption, label: Caption, type: string }
+              - { name: image, label: Photo, type: image, required: false }
+              - { name: alt, label: Alt text, type: string, required: false }
+
+      - name: areas
+        label: Areas covered
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - { name: areas, label: Areas, type: string, list: true }
+          - { name: note, label: Note, type: text }
+          - { name: mapTitle, label: Map box text, type: string }
+
+      - name: reviewsSection
+        label: Reviews section
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - { name: facebookNote, label: Facebook note, type: string }
+          - name: reviews
+            label: Reviews
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Customer name, type: string }
+              - { name: source, label: Source, type: string }
+              - { name: text, label: Review text, type: text }
+
+      - name: process
+        label: Quote process
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - name: steps
+            label: Steps
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Step title, type: string }
+              - { name: text, label: Step text, type: text }
+
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - { name: label, label: Small label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - { name: tipTitle, label: Tip title, type: string }
+          - { name: tipText, label: Tip text, type: text }
+          - { name: tipText2, label: Second tip text, type: text }
+          - { name: serviceAreaTitle, label: Service area title, type: string }
+          - { name: serviceAreaText, label: Service area text, type: string }
+          - { name: serviceAreaNote, label: Service area note, type: text }
+
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: description, label: Footer description, type: text }
+          - { name: bottomText, label: Footer bottom text, type: string }
