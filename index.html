@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali's Bolton Plastering Services | Plasterer Bolton & Greater Manchester</title>
+  <meta name="description" content="Ali's Bolton Plastering Services — reliable skimming, ceiling plastering, artex covering and plaster repairs across Bolton & Greater Manchester. 17+ years' experience. Free quotes." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://alisboltonplastering.co.uk/" />
+  <meta property="og:title" content="Ali's Bolton Plastering Services" />
+  <meta property="og:description" content="Clean, reliable plastering and skimming across Bolton & Greater Manchester. Free quotes — call or WhatsApp Ali." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alisboltonplastering.co.uk/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script id="schema-json" type="application/ld+json"></script>
+  <style>
+    /* ============================================================
+       CSS VARIABLES — THEME TOKENS
+    ============================================================ */
+    :root {
+      --navy:       #0f1f35;
+      --navy-mid:   #172d4a;
+      --navy-light: #1e3a5f;
+      --charcoal:   #1c2330;
+      --slate:      #2d3a4a;
+      --teal:       #2a8fa8;
+      --teal-light: #35aac8;
+      --white:      #ffffff;
+      --off-white:  #f5f7fa;
+      --light-grey: #e8ecf0;
+      --mid-grey:   #8a96a3;
+      --text-dark:  #1a2332;
+      --text-body:  #3d4d5c;
+      --text-light: #6b7a8a;
+
+      --font:       'Inter', system-ui, -apple-system, sans-serif;
+      --radius:     10px;
+      --radius-lg:  16px;
+      --shadow-sm:  0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md:  0 4px 20px rgba(0,0,0,0.12);
+      --shadow-lg:  0 8px 40px rgba(0,0,0,0.18);
+
+      --max-w:      1100px;
+      --section-pad: 80px 20px;
+    }
+
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font);
+      color: var(--text-body);
+      background: var(--white);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ============================================================
+       UTILITY
+    ============================================================ */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .section-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800;
+      color: var(--text-dark);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .section-title.light {
+      color: var(--white);
+    }
+
+    .section-intro {
+      font-size: 1.05rem;
+      color: var(--text-light);
+      max-width: 580px;
+      margin-bottom: 48px;
+    }
+
+    .section-intro.light {
+      color: rgba(255,255,255,0.75);
+    }
+
+    /* ============================================================
+       BUTTONS
+    ============================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 26px;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+
+    .btn-primary {
+      background: var(--teal);
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(42,143,168,0.35);
+    }
+    .btn-primary:hover {
+      background: var(--teal-light);
+      box-shadow: 0 6px 24px rgba(42,143,168,0.45);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.5);
+    }
+    .btn-outline:hover {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.8);
+    }
+
+    .btn-white {
+      background: var(--white);
+      color: var(--navy);
+      box-shadow: var(--shadow-md);
+    }
+    .btn-white:hover {
+      background: var(--off-white);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .btn-ghost-teal {
+      background: transparent;
+      color: var(--teal);
+      border: 2px solid var(--teal);
+    }
+    .btn-ghost-teal:hover {
+      background: var(--teal);
+      color: var(--white);
+    }
+
+    /* ============================================================
+       NAV
+    ============================================================ */
+    #nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(15,31,53,0.96);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      transition: background 0.3s ease;
+    }
+
+    .nav-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 20px;
+      height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .logo-mark {
+      width: 40px;
+      height: 40px;
+      background: var(--teal);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--white);
+      flex-shrink: 0;
+      letter-spacing: -0.5px;
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+
+    .logo-text span:first-child {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .logo-text span:last-child {
+      font-size: 0.7rem;
+      color: var(--mid-grey);
+      font-weight: 500;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.75);
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--white); }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-phone {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--teal-light);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-burger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+
+    .nav-burger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: transform 0.25s, opacity 0.25s;
+    }
+
+    .nav-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-burger.open span:nth-child(2) { opacity: 0; }
+    .nav-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 16px 20px 24px;
+      gap: 4px;
+    }
+
+    .mobile-menu.open { display: flex; }
+
+    .mobile-menu a {
+      font-size: 1rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.85);
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      transition: color 0.2s;
+    }
+
+    .mobile-menu a:hover { color: var(--teal-light); }
+
+    .mobile-menu-ctas {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    #hero {
+      min-height: 100svh;
+      background: linear-gradient(160deg, var(--charcoal) 0%, var(--navy) 50%, #0a1828 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 62px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-bg-pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 70% 50%, rgba(42,143,168,0.08) 0%, transparent 60%),
+        radial-gradient(circle at 20% 80%, rgba(42,143,168,0.05) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 60px 20px 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(42,143,168,0.15);
+      border: 1px solid rgba(42,143,168,0.3);
+      border-radius: 30px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--teal-light);
+      margin-bottom: 24px;
+    }
+
+    .hero-badge-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--teal-light);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    .hero-h1 {
+      font-size: clamp(2rem, 5.5vw, 3.4rem);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-h1 .highlight {
+      color: var(--teal-light);
+    }
+
+    .hero-sub {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.72);
+      margin-bottom: 36px;
+      max-width: 440px;
+      line-height: 1.65;
+    }
+
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .hero-stat {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-stat-num {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1;
+    }
+
+    .hero-stat-label {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.5);
+      margin-top: 4px;
+    }
+
+    .hero-image-area {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-photo-frame {
+      background: var(--navy-light);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-lg), 0 0 0 1px rgba(42,143,168,0.15);
+      position: relative;
+    }
+
+    .photo-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .photo-placeholder-icon {
+      width: 60px;
+      height: 60px;
+      background: rgba(42,143,168,0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo-placeholder p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.4);
+      line-height: 1.5;
+    }
+
+    .photo-placeholder strong {
+      color: rgba(255,255,255,0.6);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .hero-photo-badge {
+      position: absolute;
+      bottom: -16px;
+      left: -16px;
+      background: var(--teal);
+      color: var(--white);
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .hero-photo-badge .num {
+      font-size: 1.5rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .hero-photo-badge .label {
+      font-size: 0.72rem;
+      opacity: 0.85;
+      margin-top: 3px;
+    }
+
+    /* ============================================================
+       TRUST STRIP
+    ============================================================ */
+    #trust {
+      background: var(--off-white);
+      padding: 0;
+      border-top: 1px solid var(--light-grey);
+      border-bottom: 1px solid var(--light-grey);
+    }
+
+    .trust-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 24px 20px;
+      border-right: 1px solid var(--light-grey);
+    }
+
+    .trust-item:last-child { border-right: none; }
+
+    .trust-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--navy);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .trust-icon svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--teal-light);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .trust-text strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      line-height: 1.2;
+    }
+
+    .trust-text span {
+      font-size: 0.8rem;
+      color: var(--text-light);
+    }
+
+    /* ============================================================
+       SERVICES
+    ============================================================ */
+    #services {
+      padding: var(--section-pad);
+      background: var(--white);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .service-card {
+      background: var(--off-white);
+      border: 1px solid var(--light-grey);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px;
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--teal);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.25s ease;
+    }
+
+    .service-card:hover {
+      border-color: rgba(42,143,168,0.3);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .service-card:hover::before { transform: scaleX(1); }
+
+    .service-card-icon {
+      width: 46px;
+      height: 46px;
+      background: var(--navy);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+
+    .service-card-icon svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--teal-light);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .service-card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    #about {
+      padding: var(--section-pad);
+      background: var(--navy);
+    }
+
+    .about-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .about-image-col {
+      position: relative;
+    }
+
+    .about-photo-frame {
+      background: var(--navy-light);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .about-checklist {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+
+    .about-checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.5;
+    }
+
+    .check-icon {
+      width: 22px;
+      height: 22px;
+      background: rgba(42,143,168,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .check-icon svg {
+      width: 12px;
+      height: 12px;
+      stroke: var(--teal-light);
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ============================================================
+       GALLERY
+    ============================================================ */
+    #gallery {
+      padding: var(--section-pad);
+      background: var(--off-white);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .gallery-item {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--light-grey);
+      aspect-ratio: 4/3;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img { transform: scale(1.04); }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(10,24,40,0.85));
+      color: var(--white);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 24px 12px 10px;
+    }
+
+    .gallery-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px;
+      text-align: center;
+      background: linear-gradient(135deg, #d8dfe8, #c5cdd8);
+    }
+
+    .gallery-placeholder span {
+      font-size: 0.75rem;
+      color: #6b7a8a;
+      font-weight: 500;
+    }
+
+    /* ============================================================
+       AREAS
+    ============================================================ */
+    #areas {
+      padding: var(--section-pad);
+      background: var(--charcoal);
+    }
+
+    .areas-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .area-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .area-tag {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.8);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .area-tag:hover, .area-tag.primary {
+      background: rgba(42,143,168,0.2);
+      border-color: rgba(42,143,168,0.4);
+      color: var(--teal-light);
+    }
+
+    .areas-map-placeholder {
+      background: var(--navy-light);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg);
+      aspect-ratio: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .areas-map-placeholder p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* ============================================================
+       REVIEWS
+    ============================================================ */
+    #reviews {
+      padding: var(--section-pad);
+      background: var(--white);
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .review-card {
+      background: var(--off-white);
+      border: 1px solid var(--light-grey);
+      border-radius: var(--radius-lg);
+      padding: 26px 24px;
+      position: relative;
+    }
+
+    .review-stars {
+      display: flex;
+      gap: 3px;
+      margin-bottom: 14px;
+    }
+
+    .star {
+      width: 16px;
+      height: 16px;
+      fill: #f0a500;
+    }
+
+    .review-text {
+      font-size: 0.93rem;
+      color: var(--text-body);
+      line-height: 1.65;
+      margin-bottom: 18px;
+      font-style: italic;
+    }
+
+    .review-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .review-avatar {
+      width: 38px;
+      height: 38px;
+      background: var(--navy);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--teal-light);
+      flex-shrink: 0;
+    }
+
+    .review-name {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .review-source {
+      font-size: 0.75rem;
+      color: var(--text-light);
+      margin-top: 2px;
+    }
+
+    .placeholder-notice {
+      display: inline-block;
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #856404;
+      margin-bottom: 10px;
+    }
+
+    /* ============================================================
+       QUOTE PROCESS
+    ============================================================ */
+    #process {
+      padding: var(--section-pad);
+      background: var(--navy);
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      position: relative;
+    }
+
+    .steps::before {
+      content: '';
+      position: absolute;
+      top: 28px;
+      left: calc(16.666% + 16px);
+      right: calc(16.666% + 16px);
+      height: 2px;
+      background: rgba(42,143,168,0.3);
+      border-top: 2px dashed rgba(42,143,168,0.4);
+    }
+
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .step-num {
+      width: 56px;
+      height: 56px;
+      background: var(--teal);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(42,143,168,0.4);
+    }
+
+    .step h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .step p {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       CONTACT / CTA
+    ============================================================ */
+    #contact {
+      padding: var(--section-pad);
+      background: linear-gradient(160deg, var(--charcoal) 0%, var(--navy) 100%);
+    }
+
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .contact-ctas {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    .contact-cta-btn {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 18px 22px;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-cta-btn:hover { transform: translateX(4px); }
+
+    .cta-call {
+      background: var(--white);
+      color: var(--navy);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    }
+
+    .cta-whatsapp {
+      background: #25d366;
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(37,211,102,0.3);
+    }
+
+    .cta-messenger {
+      background: #0084ff;
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(0,132,255,0.3);
+    }
+
+    .cta-email {
+      background: rgba(255,255,255,0.08);
+      color: rgba(255,255,255,0.85);
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .cta-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.1);
+      flex-shrink: 0;
+    }
+
+    .cta-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .contact-info-box {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+    }
+
+    .contact-info-box h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    .contact-info-box p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.65;
+    }
+
+    .contact-tip {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: rgba(42,143,168,0.12);
+      border: 1px solid rgba(42,143,168,0.25);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-top: 20px;
+    }
+
+    .contact-tip svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--teal-light);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .contact-tip p {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.75);
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      background: #070f1c;
+      padding: 40px 20px 24px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .footer-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 40px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 24px;
+    }
+
+    .footer-col h4 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--mid-grey);
+      margin-bottom: 14px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .footer-col ul li a,
+    .footer-col ul li span {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.55);
+      transition: color 0.2s;
+    }
+
+    .footer-col ul li a:hover { color: var(--teal-light); }
+
+    .footer-bottom {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .footer-bottom p {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.3);
+    }
+
+    .footer-bottom a {
+      color: rgba(255,255,255,0.4);
+      font-size: 0.8rem;
+    }
+
+    .footer-bottom a:hover { color: var(--teal-light); }
+
+    /* ============================================================
+       FLOATING CTA
+    ============================================================ */
+    .floating-cta {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    .float-btn {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .float-btn:hover { transform: scale(1.1); box-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+
+    .float-btn svg {
+      width: 26px;
+      height: 26px;
+    }
+
+    .float-wa { background: #25d366; }
+    .float-phone { background: var(--teal); }
+
+    .float-label {
+      background: rgba(10,24,40,0.9);
+      color: var(--white);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+
+    .float-row {
+      display: flex;
+      align-items: center;
+    }
+
+    /* ============================================================
+       RESPONSIVE — TABLET
+    ============================================================ */
+    @media (max-width: 900px) {
+      :root { --section-pad: 60px 20px; }
+
+      .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 40px 20px 60px;
+      }
+
+      .hero-image-area { order: -1; }
+
+      .hero-h1 { font-size: clamp(1.8rem, 6vw, 2.8rem); }
+
+      .trust-inner {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .trust-item:nth-child(2) { border-right: none; }
+      .trust-item:nth-child(3) { border-right: 1px solid var(--light-grey); border-top: 1px solid var(--light-grey); }
+      .trust-item:nth-child(4) { border-right: none; border-top: 1px solid var(--light-grey); }
+
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .about-inner { grid-template-columns: 1fr; gap: 40px; }
+      .about-image-col { display: none; }
+
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .areas-inner { grid-template-columns: 1fr; }
+      .areas-map-placeholder { display: none; }
+
+      .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+      .reviews-grid .review-card:last-child { grid-column: 1 / -1; max-width: 360px; }
+
+      .steps::before { display: none; }
+
+      .contact-inner { grid-template-columns: 1fr; gap: 40px; }
+
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+
+      .nav-links { display: none; }
+      .nav-cta .nav-phone { display: none; }
+      .nav-burger { display: flex; }
+    }
+
+    /* ============================================================
+       RESPONSIVE — MOBILE
+    ============================================================ */
+    @media (max-width: 600px) {
+      :root { --section-pad: 48px 16px; }
+
+      .hero-inner { padding: 32px 16px 48px; gap: 32px; }
+      .hero-ctas { flex-direction: column; }
+      .hero-ctas .btn { justify-content: center; width: 100%; }
+      .hero-stats { gap: 20px; }
+
+      .trust-inner { grid-template-columns: 1fr; }
+      .trust-item { border-right: none; border-top: 1px solid var(--light-grey); }
+      .trust-item:first-child { border-top: none; }
+
+      .services-grid { grid-template-columns: 1fr; }
+
+      .steps { grid-template-columns: 1fr; gap: 24px; }
+
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+
+      .reviews-grid { grid-template-columns: 1fr; }
+      .reviews-grid .review-card:last-child { max-width: 100%; }
+
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; gap: 6px; }
+
+      .floating-cta { bottom: 16px; right: 16px; }
+
+      .float-label { display: none; }
+    }
+
+    /* ============================================================
+       SCROLL ANIMATION (lightweight)
+    ============================================================ */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+  
+
+    /* ============================================================
+       CMS / DYNAMIC CONTENT HELPERS
+    ============================================================ */
+    .cms-edit-link {
+      position: fixed;
+      left: 18px;
+      bottom: 18px;
+      z-index: 98;
+      background: rgba(15,31,53,0.92);
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      box-shadow: var(--shadow-md);
+    }
+    .cms-edit-link:hover { background: var(--teal); }
+    .content-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .is-hidden { display: none !important; }
+    .loading-note {
+      position: fixed;
+      inset: auto 18px 18px auto;
+      z-index: 101;
+      background: var(--navy);
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      font-size: 0.8rem;
+      box-shadow: var(--shadow-md);
+      display: none;
+    }
+</style>
+</head>
+<body>
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Ali's Bolton Plastering Services — home">
+        <div class="logo-mark" aria-hidden="true" data-logo-initials>AB</div>
+        <div class="logo-text"><span data-short-name>Ali's Bolton Plastering</span><span data-tagline>Bolton & Greater Manchester</span></div>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#areas">Areas</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:07729763555" class="nav-phone" aria-label="Call Ali" data-phone-link>☎ <span data-phone-display>07729 763555</span></a>
+        <button class="nav-burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+      <a href="#services" role="menuitem">Services</a>
+      <a href="#about" role="menuitem">About Ali</a>
+      <a href="#gallery" role="menuitem">Gallery</a>
+      <a href="#areas" role="menuitem">Areas Covered</a>
+      <a href="#reviews" role="menuitem">Reviews</a>
+      <a href="#contact" role="menuitem">Contact</a>
+      <div class="mobile-menu-ctas">
+        <a href="tel:07729763555" class="btn btn-primary" data-phone-link>Call <span data-phone-display>07729 763555</span></a>
+        <a href="https://wa.me/447729763555" class="btn btn-outline" target="_blank" rel="noopener" data-wa-link>WhatsApp Ali</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" aria-label="Hero">
+    <div class="hero-bg-pattern" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge"><div class="hero-badge-dot" aria-hidden="true"></div><span id="hero-badge-text">Based in Bolton · Covering Greater Manchester</span></div>
+        <h1 class="hero-h1" id="hero-title"><span class="highlight">Ali's</span> Bolton<br />Plastering Services</h1>
+        <p class="hero-sub" id="hero-intro">Clean, reliable plastering and skimming across Bolton & Greater Manchester.</p>
+        <div class="hero-ctas">
+          <a href="tel:07729763555" class="btn btn-primary" data-phone-link>☎ Call <span data-phone-display>07729 763555</span></a>
+          <a href="https://wa.me/447729763555" class="btn btn-outline" target="_blank" rel="noopener" data-wa-link>WhatsApp for a Free Quote</a>
+        </div>
+        <div class="hero-stats" id="hero-stats"></div>
+      </div>
+      <div class="hero-image-area" aria-hidden="true">
+        <div class="hero-photo-frame" id="hero-image"></div>
+        <div class="hero-photo-badge"><div class="num" id="hero-stat-badge-num">17+</div><div class="label" id="hero-stat-badge-label">Years' experience</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trust" aria-label="Trust points"><div class="trust-inner" id="trust-items"></div></section>
+
+  <section id="services" aria-labelledby="services-title"><div class="container">
+    <span class="section-label" id="services-label">What We Do</span>
+    <h2 class="section-title" id="services-title">Plastering & Skimming Services</h2>
+    <p class="section-intro" id="services-intro"></p>
+    <div class="services-grid" id="services-grid"></div>
+  </div></section>
+
+  <section id="about" aria-labelledby="about-title"><div class="container"><div class="about-inner">
+    <div class="about-image-col" aria-hidden="true"><div class="about-photo-frame" id="about-image"></div></div>
+    <div><span class="section-label" id="about-label">About</span><h2 class="section-title light" id="about-title">Why Choose Ali?</h2><p id="about-intro" style="color:rgba(255,255,255,0.7); margin-bottom:28px; font-size:1rem; line-height:1.7;"></p><ul class="about-checklist" id="about-bullets"></ul><a href="tel:07729763555" class="btn btn-primary" data-phone-link>Call Ali — <span data-phone-display>07729 763555</span></a></div>
+  </div></div></section>
+
+  <section id="gallery" aria-labelledby="gallery-title"><div class="container">
+    <span class="section-label" id="gallery-label">Our Work</span>
+    <h2 class="section-title" id="gallery-title">Before & After Gallery</h2>
+    <p class="section-intro" id="gallery-intro"></p>
+    <div class="gallery-grid" id="gallery-grid" role="list"></div>
+  </div></section>
+
+  <section id="areas" aria-labelledby="areas-title"><div class="container"><div class="areas-inner">
+    <div><span class="section-label" id="areas-label">Where We Work</span><h2 class="section-title light" id="areas-title">Covering Bolton & Greater Manchester</h2><p class="section-intro light" id="areas-intro"></p><div class="area-tags" id="area-tags"></div><p id="areas-note" style="font-size:0.95rem; color:rgba(255,255,255,0.65); margin-bottom:18px;"></p><a href="#contact" class="btn btn-white">Check Your Area</a></div>
+    <div class="areas-map-placeholder" aria-hidden="true"><svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#35aac8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg><p id="areas-map-title">Bolton & Greater Manchester Service Area</p></div>
+  </div></div></section>
+
+  <section id="reviews" aria-labelledby="reviews-title"><div class="container">
+    <span class="section-label" id="reviews-label">Reviews</span>
+    <h2 class="section-title" id="reviews-title">What Customers Say</h2>
+    <p class="section-intro" id="reviews-intro"></p>
+    <div class="reviews-grid" id="reviews-grid"></div>
+    <p style="margin-top:24px;"><span id="facebook-note">Read more reviews on Facebook</span> <a href="https://www.facebook.com/" class="btn btn-ghost-teal" target="_blank" rel="noopener" data-facebook-link>Facebook</a></p>
+  </div></section>
+
+  <section id="process" aria-labelledby="process-title"><div class="container">
+    <span class="section-label" id="process-label">How It Works</span>
+    <h2 class="section-title light" id="process-title">Getting a Free Quote Is Simple</h2>
+    <p class="section-intro light" id="process-intro"></p>
+    <div class="steps" id="steps"></div>
+  </div></section>
+
+  <section id="contact" aria-labelledby="contact-title"><div class="container"><div class="contact-inner">
+    <div><span class="section-label" id="contact-label">Get in Touch</span><h2 class="section-title light" id="contact-title">Contact Ali for a Free Quote</h2><p class="section-intro light" id="contact-intro"></p>
+      <div class="contact-ctas">
+        <a href="tel:07729763555" class="contact-cta-btn cta-call" data-phone-link><span class="cta-icon">☎</span><span>Call Ali directly<br><small data-phone-display>07729 763555</small></span></a>
+        <a href="https://wa.me/447729763555" class="contact-cta-btn cta-whatsapp" target="_blank" rel="noopener" data-wa-link><span class="cta-icon">☘</span><span>WhatsApp<br><small>Send photos for a quick quote</small></span></a>
+        <a href="https://www.facebook.com/" class="contact-cta-btn cta-messenger" target="_blank" rel="noopener" data-messenger-link><span class="cta-icon">f</span><span>Facebook Messenger<br><small>Message Ali on Facebook</small></span></a>
+        <a href="mailto:kawamahmoud77@gmail.com" class="contact-cta-btn cta-email" data-email-href><span class="cta-icon">@</span><span>Email<br><small data-email-link>kawamahmoud77@gmail.com</small></span></a>
+      </div>
+    </div>
+    <div><div class="contact-info-box"><h3 id="contact-tip-title">Sending Photos Makes It Easier</h3><p id="contact-tip-text"></p><div class="contact-tip"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><p id="contact-tip-text2"></p></div></div><div style="margin-top:24px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-radius:var(--radius-lg); padding:24px;"><h3 id="service-area-title" style="font-size:1rem; font-weight:700; color:var(--white); margin-bottom:6px;">Service Area</h3><p id="service-area-text" style="font-size:0.875rem; color:rgba(255,255,255,0.6);"></p><p id="service-area-note" style="font-size:0.875rem; color:rgba(255,255,255,0.5); margin-top:8px;"></p></div></div>
+  </div></div></section>
+
+  <footer role="contentinfo"><div class="footer-inner">
+    <div class="footer-col"><div class="nav-logo" style="margin-bottom:12px;"><div class="logo-mark" aria-hidden="true" data-logo-initials>AB</div><div class="logo-text"><span data-short-name>Ali's Bolton Plastering</span><span>Services</span></div></div><p id="footer-description" style="font-size:0.82rem; color:rgba(255,255,255,0.4); line-height:1.6; margin-top:4px;"></p></div>
+    <div class="footer-col"><h4>Services</h4><ul id="footer-services"></ul></div>
+    <div class="footer-col"><h4>Contact</h4><ul><li><a href="tel:07729763555" data-phone-link data-phone-display>07729 763555</a></li><li><a href="https://wa.me/447729763555" target="_blank" rel="noopener" data-wa-link>WhatsApp Ali</a></li><li><a href="mailto:kawamahmoud77@gmail.com" data-email-link>kawamahmoud77@gmail.com</a></li><li><a href="https://www.facebook.com/" target="_blank" rel="noopener" data-facebook-link>Facebook Page</a></li><li><span data-tagline>Bolton & Greater Manchester</span></li></ul></div>
+  </div><div class="footer-bottom"><p>&copy; <span id="footer-year">2026</span> <span id="footer-business-name">Ali's Bolton Plastering Services</span>. All rights reserved.</p><p id="footer-bottom-text"></p></div></footer>
+
+  <div class="floating-cta" aria-label="Quick contact buttons"><div class="float-row"><span class="float-label">Call Ali</span><a href="tel:07729763555" class="float-btn float-phone" aria-label="Call Ali" data-phone-link>☎</a></div><div class="float-row"><span class="float-label">WhatsApp</span><a href="https://wa.me/447729763555" class="float-btn float-wa" target="_blank" rel="noopener" aria-label="WhatsApp Ali" data-wa-link>☘</a></div></div>
+  <a class="cms-edit-link" href="/admin/">Edit website</a>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    const DEFAULT_SITE = {"business": {"businessName": "Ali's Bolton Plastering Services", "shortName": "Ali's Bolton Plastering", "tagline": "Bolton & Greater Manchester", "logoInitials": "AB", "phoneDisplay": "07729 763555", "phoneTel": "07729763555", "whatsappNumber": "447729763555", "whatsappMessage": "Hi Ali, I'd like a free plastering quote", "email": "kawamahmoud77@gmail.com", "websiteUrl": "https://alisboltonplastering.co.uk/", "facebookUrl": "https://www.facebook.com/", "messengerUrl": "https://www.facebook.com/", "serviceArea": "Bolton & Greater Manchester", "yearFoundedText": "17+ Years' Experience", "footerYear": "2026"}, "seo": {"pageTitle": "Ali's Bolton Plastering Services | Plasterer Bolton & Greater Manchester", "description": "Ali's Bolton Plastering Services — reliable skimming, ceiling plastering, artex covering and plaster repairs across Bolton & Greater Manchester. 17+ years' experience. Free quotes."}, "hero": {"badge": "Based in Bolton · Covering Greater Manchester", "headlineLine1": "Ali's Bolton", "headlineLine2": "Plastering Services", "highlightWord": "Ali's", "intro": "Clean, reliable plastering and skimming across Bolton & Greater Manchester. From a single repair to a full house — quality workmanship, tidy finish, free quotes.", "image": "", "imageAlt": "Freshly plastered room by Ali's Bolton Plastering Services", "imagePlaceholderTitle": "Your job photos here", "imagePlaceholderText": "Upload a real plastering job photo in the admin panel", "stats": [{"number": "17+", "label": "Years' experience"}, {"number": "Free", "label": "Quotes, always"}, {"number": "Local", "label": "Bolton-based"}]}, "trustPoints": [{"title": "17+ Years' Experience", "text": "Plastering specialist since 2007", "icon": "star"}, {"title": "Free Quotes", "text": "No obligation, no pressure", "icon": "check"}, {"title": "Clean & Tidy", "text": "Respectful of your home", "icon": "home"}, {"title": "Punctual & Reliable", "text": "Bolton & Greater Manchester", "icon": "clock"}], "servicesSection": {"label": "What We Do", "title": "Plastering & Skimming Services", "intro": "Small repairs to full house projects — everything done properly, left clean, and ready for decorating.", "services": [{"title": "Skimming", "description": "A smooth, thin skim coat applied over existing plaster or plasterboard — ideal for walls that need freshening up before decorating. Clean edges, flat finish.", "icon": "walls"}, {"title": "Full Room & House Skimming", "description": "Single rooms to complete properties — walls and ceilings skimmed smooth throughout. Great for new builds, renovations, or homes being prepared for sale or redecoration.", "icon": "home"}, {"title": "Artex Covering", "description": "Cover over old Artex textured ceilings with a flat, smooth plastered finish — no mess, no fuss. A popular job that transforms the look of older ceilings.", "icon": "roller"}, {"title": "Ceiling Plastering", "description": "From ceilings with minor cracks to full replastering — finished flat and ready for paint. All work protected and cleaned up properly before Ali leaves.", "icon": "ceiling"}, {"title": "Plaster Repairs & Patch Work", "description": "Hairline cracks, damp patches, holes, or damaged sections neatly repaired and blended in. Small jobs are no problem — everything gets the same attention to detail.", "icon": "tools"}, {"title": "Ready for Decorating", "description": "Every job is finished to decorator standard — smooth, clean, and properly cured. Ali won't rush a finish. When it's done, it's done right.", "icon": "finish"}]}, "about": {"label": "About", "title": "Why Choose Ali?", "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with.", "image": "", "imageAlt": "Ali or a plastering project in progress", "imagePlaceholderTitle": "Photo of Ali here", "imagePlaceholderText": "Or upload a project in progress photo", "bullets": [{"title": "17+ years' specialist experience", "text": "plastering and skimming is the sole focus, not a side service"}, {"title": "Punctual, courteous, and respectful", "text": "your home is treated with care from start to finish"}, {"title": "Clean and tidy worker", "text": "preparation protected, mess contained, and a proper clean-up after every job"}, {"title": "Small jobs to full house projects", "text": "Ali takes every job seriously, whatever the size"}, {"title": "High-quality finish, every time", "text": "walls and ceilings left flat, smooth, and genuinely ready for decorating"}, {"title": "Free, no-obligation quotes", "text": "call or send photos via WhatsApp"}]}, "gallerySection": {"label": "Our Work", "title": "Before & After Gallery", "intro": "Real jobs, real results. Photos added from ongoing work — check back as the gallery grows.", "items": [{"caption": "Ceiling skimmed smooth", "image": "", "alt": "Ceiling skimmed smooth by Ali's Bolton Plastering Services"}, {"caption": "Artex covered & skimmed flat", "image": "", "alt": "Artex ceiling covered and skimmed flat"}, {"caption": "Full room ready for decorating", "image": "", "alt": "Full room skimmed and ready for decorating"}, {"caption": "Plaster repair patched in", "image": "", "alt": "Plaster repair and patch work"}, {"caption": "New plasterboard skimmed", "image": "", "alt": "New plasterboard skimmed smooth"}, {"caption": "Clean finish around edges", "image": "", "alt": "Clean plaster finish around room edges"}]}, "areas": {"label": "Where We Work", "title": "Covering Bolton & Greater Manchester", "intro": "Ali is Bolton-based and covers the surrounding Greater Manchester area. If you're nearby and not sure, just ask — chances are it's doable.", "areas": ["Bolton", "Farnworth", "Horwich", "Westhoughton", "Little Lever", "Walkden", "Radcliffe", "Bury", "Wigan", "Leigh", "Atherton", "Chorley", "Salford", "Manchester"], "note": "Not sure if we cover your area? Give Ali a call or drop a WhatsApp message.", "mapTitle": "Bolton & Greater Manchester Service Area"}, "reviewsSection": {"label": "Reviews", "title": "What Customers Say", "intro": "Ali's work speaks for itself — here's what local customers have said.", "facebookNote": "Read more reviews on Facebook", "reviews": [{"name": "Customer", "source": "Facebook review", "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"}, {"name": "Customer", "source": "Facebook review", "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"}, {"name": "Customer", "source": "Facebook review", "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"}]}, "process": {"label": "How It Works", "title": "Getting a Free Quote Is Simple", "intro": "Three steps and you're done. No hard sell, no hassle.", "steps": [{"title": "Call or WhatsApp Ali", "text": "Ring 07729 763555 or send a WhatsApp message — whichever suits you best."}, {"title": "Send Photos or a Video", "text": "Send a few photos or a quick video of the job via WhatsApp. That's usually enough for Ali to give you a rough price straight away."}, {"title": "Get Your Free Quote", "text": "Ali will come back to you with a price. If needed, he'll arrange a visit to take a proper look before confirming the quote."}]}, "contact": {"label": "Get in Touch", "title": "Contact Ali for a Free Quote", "intro": "Call, WhatsApp, email, or message on Facebook — whatever works for you. For the quickest response, a quick call or WhatsApp message is best.", "tipTitle": "Sending Photos Makes It Easier", "tipText": "The quickest way to get a rough quote is to send Ali a few photos or a short video of the job via WhatsApp. Show the walls, ceiling, any damage, and the room size if you can — Ali can usually give you a price from that without needing a visit first.", "tipText2": "For full house quotes or larger jobs, Ali will visit in person to price it up properly before any work is confirmed.", "serviceAreaTitle": "Service Area", "serviceAreaText": "Bolton & Greater Manchester", "serviceAreaNote": "All domestic work considered. Some commercial work taken on — ask Ali for details."}, "footer": {"description": "Plastering & skimming specialist serving Bolton & Greater Manchester for over 17 years.", "bottomText": "Plasterer Bolton · Skimming Bolton · Artex Covering · Greater Manchester"}};
+
+    const ICONS = {
+      star: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>',
+      check: '<path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>',
+      home: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>',
+      clock: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+      walls: '<rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>',
+      roller: '<circle cx="12" cy="5" r="3"/><path d="M12 8v13"/><path d="M5 21h14"/>',
+      ceiling: '<polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/>',
+      tools: '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
+      finish: '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>',
+      image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/>',
+      user: '<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
+      map: '<path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z"/><path d="M9 3v15"/><path d="M15 6v15"/>',
+      phone: '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.7 12.1 19.79 19.79 0 0 1 1.63 3.58 2 2 0 0 1 3.6 1.37h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.09 6.09l1.69-1.69a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/>',
+      mail: '<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>'
+    };
+    const WHATSAPP_ICON = '<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>';
+
+
+    const $ = (selector) => document.querySelector(selector);
+    const escapeHTML = (value = '') => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    const icon = (name, attrs = '') => `<svg ${attrs} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ICONS.check}</svg>`;
+    const whatsappIcon = (attrs = '') => `<svg ${attrs} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${WHATSAPP_ICON}</svg>`;
+    const telHref = (site) => `tel:${site.business.phoneTel}`;
+    const waHref = (site) => `https://wa.me/${site.business.whatsappNumber}?text=${encodeURIComponent(site.business.whatsappMessage || '')}`;
+    const withFallback = (...values) => values.find(v => v !== undefined && v !== null && String(v).trim() !== '') || '';
+
+    function imageOrPlaceholder(image, alt, title, text, iconName = 'image') {
+      if (image) {
+        return `<img class="content-image" src="${escapeHTML(image)}" alt="${escapeHTML(alt || '')}" loading="lazy">`;
+      }
+      return `<div class="photo-placeholder">
+        <div class="photo-placeholder-icon">${icon(iconName, 'width="28" height="28"')}</div>
+        <p><strong>${escapeHTML(title || 'Photo here')}</strong>${escapeHTML(text || 'Upload this in the admin panel')}</p>
+      </div>`;
+    }
+
+    function galleryImageOrPlaceholder(item) {
+      if (item.image) {
+        return `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.alt || item.caption || 'Gallery photo')}" loading="lazy">`;
+      }
+      return `<div class="gallery-placeholder" aria-label="Photo placeholder — ${escapeHTML(item.caption || '')}">
+        ${icon('image', 'width="36" height="36"')}
+        <span>${escapeHTML(item.caption || 'Gallery photo')}</span>
+      </div>`;
+    }
+
+    function updateSEO(site) {
+      document.title = site.seo?.pageTitle || site.business.businessName;
+      const description = site.seo?.description || '';
+      const url = site.business.websiteUrl || window.location.href;
+      const setMeta = (selector, attr, value) => { const el = document.querySelector(selector); if (el) el.setAttribute(attr, value); };
+      setMeta('meta[name="description"]', 'content', description);
+      setMeta('link[rel="canonical"]', 'href', url);
+      setMeta('meta[property="og:title"]', 'content', site.business.businessName || '');
+      setMeta('meta[property="og:description"]', 'content', description);
+      setMeta('meta[property="og:url"]', 'content', url);
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": site.business.businessName,
+        "telephone": site.business.phoneTel,
+        "email": site.business.email,
+        "url": url,
+        "areaServed": (site.areas?.areas || []).map(name => ({"@type": "City", "name": name})),
+        "hasOfferCatalog": {"@type":"OfferCatalog", "name":"Plastering Services", "itemListElement": (site.servicesSection?.services || []).map(service => ({"@type":"Offer", "itemOffered":{"@type":"Service", "name": service.title}}))},
+        "description": description,
+        "priceRange": "££"
+      };
+      $('#schema-json').textContent = JSON.stringify(schema, null, 2);
+    }
+
+    function render(site) {
+      updateSEO(site);
+      document.querySelectorAll('[data-logo-initials]').forEach(el => el.textContent = site.business.logoInitials || 'AB');
+      document.querySelectorAll('[data-short-name]').forEach(el => el.textContent = site.business.shortName || site.business.businessName);
+      document.querySelectorAll('[data-tagline]').forEach(el => el.textContent = site.business.tagline || site.business.serviceArea);
+      document.querySelectorAll('[data-phone-display]').forEach(el => el.textContent = site.business.phoneDisplay);
+      document.querySelectorAll('[data-phone-link]').forEach(el => el.href = telHref(site));
+      document.querySelectorAll('[data-wa-link]').forEach(el => el.href = waHref(site));
+      document.querySelectorAll('[data-email-link]').forEach(el => { if (el.tagName === 'A') el.href = `mailto:${site.business.email}`; el.textContent = site.business.email; });
+      document.querySelectorAll('[data-email-href]').forEach(el => { el.href = `mailto:${site.business.email}`; });
+      document.querySelectorAll('[data-facebook-link]').forEach(el => el.href = site.business.facebookUrl || '#');
+      document.querySelectorAll('[data-messenger-link]').forEach(el => el.href = site.business.messengerUrl || site.business.facebookUrl || '#');
+
+      $('#hero-badge-text').textContent = site.hero.badge;
+      const h1 = $('#hero-title');
+      const line1 = escapeHTML(site.hero.headlineLine1 || '');
+      const highlight = escapeHTML(site.hero.highlightWord || '');
+      const highlighted = highlight && line1.includes(highlight)
+        ? line1.replace(highlight, `<span class="highlight">${highlight}</span>`)
+        : `<span class="highlight">${line1}</span>`;
+      h1.innerHTML = `${highlighted}<br>${escapeHTML(site.hero.headlineLine2 || '')}`;
+      $('#hero-intro').textContent = site.hero.intro;
+      $('#hero-image').innerHTML = imageOrPlaceholder(site.hero.image, site.hero.imageAlt, site.hero.imagePlaceholderTitle, site.hero.imagePlaceholderText, 'image');
+      $('#hero-stat-badge-num').textContent = withFallback(site.hero.stats?.[0]?.number, '17+');
+      $('#hero-stat-badge-label').textContent = withFallback(site.hero.stats?.[0]?.label, 'Years experience');
+      $('#hero-stats').innerHTML = (site.hero.stats || []).map(stat => `<div class="hero-stat"><span class="hero-stat-num">${escapeHTML(stat.number)}</span><span class="hero-stat-label">${escapeHTML(stat.label)}</span></div>`).join('');
+
+      $('#trust-items').innerHTML = (site.trustPoints || []).map(item => `<div class="trust-item"><div class="trust-icon">${icon(item.icon || 'check')}</div><div class="trust-text"><strong>${escapeHTML(item.title)}</strong><span>${escapeHTML(item.text)}</span></div></div>`).join('');
+
+      $('#services-label').textContent = site.servicesSection.label;
+      $('#services-title').textContent = site.servicesSection.title;
+      $('#services-intro').textContent = site.servicesSection.intro;
+      $('#services-grid').innerHTML = (site.servicesSection.services || []).map(service => `<article class="service-card reveal"><div class="service-card-icon">${icon(service.icon || 'walls')}</div><h3>${escapeHTML(service.title)}</h3><p>${escapeHTML(service.description)}</p></article>`).join('');
+
+      $('#about-label').textContent = site.about.label;
+      $('#about-title').textContent = site.about.title;
+      $('#about-intro').textContent = site.about.intro;
+      $('#about-image').innerHTML = imageOrPlaceholder(site.about.image, site.about.imageAlt, site.about.imagePlaceholderTitle, site.about.imagePlaceholderText, 'user');
+      $('#about-bullets').innerHTML = (site.about.bullets || []).map(item => `<li><div class="check-icon">${icon('check')}</div><span><strong>${escapeHTML(item.title)}</strong> — ${escapeHTML(item.text)}</span></li>`).join('');
+
+      $('#gallery-label').textContent = site.gallerySection.label;
+      $('#gallery-title').textContent = site.gallerySection.title;
+      $('#gallery-intro').textContent = site.gallerySection.intro;
+      $('#gallery-grid').innerHTML = (site.gallerySection.items || []).map(item => `<div class="gallery-item reveal" role="listitem">${galleryImageOrPlaceholder(item)}<div class="gallery-caption">${escapeHTML(item.caption)}</div></div>`).join('');
+
+      $('#areas-label').textContent = site.areas.label;
+      $('#areas-title').textContent = site.areas.title;
+      $('#areas-intro').textContent = site.areas.intro;
+      $('#area-tags').innerHTML = (site.areas.areas || []).map((name, index) => `<span class="area-tag ${index === 0 ? 'primary' : ''}">${escapeHTML(name)}</span>`).join('');
+      $('#areas-note').textContent = site.areas.note;
+      $('#areas-map-title').textContent = site.areas.mapTitle;
+
+      $('#reviews-label').textContent = site.reviewsSection.label;
+      $('#reviews-title').textContent = site.reviewsSection.title;
+      $('#reviews-intro').textContent = site.reviewsSection.intro;
+      $('#reviews-grid').innerHTML = (site.reviewsSection.reviews || []).map(review => `<article class="review-card reveal"><div class="review-stars" aria-label="5 star review">${Array.from({length:5}).map(() => '<svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>').join('')}</div><p class="review-text">“${escapeHTML(review.text)}”</p><div class="review-author"><div class="review-avatar">${escapeHTML((review.name || 'C').slice(0,2).toUpperCase())}</div><div><div class="review-name">${escapeHTML(review.name)}</div><div class="review-source">${escapeHTML(review.source)}</div></div></div></article>`).join('');
+      $('#facebook-note').textContent = site.reviewsSection.facebookNote;
+
+      $('#process-label').textContent = site.process.label;
+      $('#process-title').textContent = site.process.title;
+      $('#process-intro').textContent = site.process.intro;
+      $('#steps').innerHTML = (site.process.steps || []).map((step, idx) => `<div class="step reveal"><div class="step-num">${idx+1}</div><h3>${escapeHTML(step.title)}</h3><p>${escapeHTML(step.text)}</p></div>`).join('');
+
+      $('#contact-label').textContent = site.contact.label;
+      $('#contact-title').textContent = site.contact.title;
+      $('#contact-intro').textContent = site.contact.intro;
+      $('#contact-tip-title').textContent = site.contact.tipTitle;
+      $('#contact-tip-text').textContent = site.contact.tipText;
+      $('#contact-tip-text2').textContent = site.contact.tipText2;
+      $('#service-area-title').textContent = site.contact.serviceAreaTitle;
+      $('#service-area-text').textContent = site.contact.serviceAreaText;
+      $('#service-area-note').textContent = site.contact.serviceAreaNote;
+
+      $('#footer-description').textContent = site.footer.description;
+      $('#footer-year').textContent = site.business.footerYear || new Date().getFullYear();
+      $('#footer-business-name').textContent = site.business.businessName;
+      $('#footer-bottom-text').textContent = site.footer.bottomText;
+      $('#footer-services').innerHTML = (site.servicesSection.services || []).slice(0,5).map(service => `<li><a href="#services">${escapeHTML(service.title)}</a></li>`).join('');
+
+      attachRevealObserver();
+    }
+
+    function attachRevealObserver() {
+      const reveals = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(el => observer.observe(el));
+      } else {
+        reveals.forEach(el => el.classList.add('visible'));
+      }
+    }
+
+    async function loadSite() {
+      try {
+        const response = await fetch('/content/site.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('Could not load content/site.json');
+        const site = await response.json();
+        render(site);
+      } catch (error) {
+        console.warn('Using built-in default content because CMS content could not be loaded.', error);
+        render(DEFAULT_SITE);
+      }
+    }
+
+    // Mobile nav burger toggle
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    burger.addEventListener('click', () => {
+      const isOpen = burger.classList.toggle('open');
+      mobileMenu.classList.toggle('open', isOpen);
+      burger.setAttribute('aria-expanded', isOpen);
+      mobileMenu.setAttribute('aria-hidden', !isOpen);
+    });
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        burger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+      });
+    });
+
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user && window.location.hash.includes('invite_token')) {
+          window.netlifyIdentity.open('signup');
+        }
+      });
+      window.netlifyIdentity.on('login', () => { window.location.href = '/admin/'; });
+    }
+
+    loadSite();
+  </script>
+
+</body>
+</html>

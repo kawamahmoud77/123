@@ -1,0 +1,183 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# This makes local testing possible if you later run Decap's local backend.
+local_backend: true
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "website"
+    label: "Website Editor"
+    files:
+      - label: "Main Website Content"
+        name: "site"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Business Details"
+            name: "business"
+            widget: "object"
+            fields:
+              - {label: "Business Name", name: "businessName", widget: "string"}
+              - {label: "Short Name", name: "shortName", widget: "string"}
+              - {label: "Tagline / Area", name: "tagline", widget: "string"}
+              - {label: "Logo Initials", name: "logoInitials", widget: "string", hint: "Shown in the square logo if you do not upload a logo."}
+              - {label: "Phone Display", name: "phoneDisplay", widget: "string", hint: "Example: 07729 763555"}
+              - {label: "Phone Link Number", name: "phoneTel", widget: "string", hint: "Numbers only, example: 07729763555"}
+              - {label: "WhatsApp Number", name: "whatsappNumber", widget: "string", hint: "International format, example: 447729763555"}
+              - {label: "WhatsApp Opening Message", name: "whatsappMessage", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Website URL", name: "websiteUrl", widget: "string"}
+              - {label: "Facebook Page URL", name: "facebookUrl", widget: "string", required: false}
+              - {label: "Messenger URL", name: "messengerUrl", widget: "string", required: false}
+              - {label: "Service Area", name: "serviceArea", widget: "string"}
+              - {label: "Experience Text", name: "yearFoundedText", widget: "string"}
+              - {label: "Footer Year", name: "footerYear", widget: "string"}
+
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "pageTitle", widget: "string"}
+              - {label: "Google Description", name: "description", widget: "text"}
+
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Headline Line 1", name: "headlineLine1", widget: "string"}
+              - {label: "Headline Line 2", name: "headlineLine2", widget: "string"}
+              - {label: "Highlighted Word", name: "highlightWord", widget: "string", required: false}
+              - {label: "Intro Text", name: "intro", widget: "text"}
+              - {label: "Hero Photo", name: "image", widget: "image", required: false}
+              - {label: "Hero Photo Alt Text", name: "imageAlt", widget: "string", required: false}
+              - {label: "Placeholder Title", name: "imagePlaceholderTitle", widget: "string", required: false}
+              - {label: "Placeholder Text", name: "imagePlaceholderText", widget: "string", required: false}
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - {label: "Number / Word", name: "number", widget: "string"}
+                  - {label: "Label", name: "label", widget: "string"}
+
+          - label: "Trust Points"
+            name: "trustPoints"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "select", options: ["star", "check", "home", "clock"]}
+
+          - label: "Services Section"
+            name: "servicesSection"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - label: "Services"
+                name: "services"
+                widget: "list"
+                fields:
+                  - {label: "Service Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+                  - {label: "Icon", name: "icon", widget: "select", options: ["walls", "home", "roller", "ceiling", "tools", "finish"]}
+
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - {label: "Photo", name: "image", widget: "image", required: false}
+              - {label: "Photo Alt Text", name: "imageAlt", widget: "string", required: false}
+              - {label: "Placeholder Title", name: "imagePlaceholderTitle", widget: "string", required: false}
+              - {label: "Placeholder Text", name: "imagePlaceholderText", widget: "string", required: false}
+              - label: "Bullet Points"
+                name: "bullets"
+                widget: "list"
+                fields:
+                  - {label: "Bold Part", name: "title", widget: "string"}
+                  - {label: "Normal Text", name: "text", widget: "text"}
+
+          - label: "Gallery Section"
+            name: "gallerySection"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - label: "Gallery Photos"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Caption", name: "caption", widget: "string"}
+                  - {label: "Photo", name: "image", widget: "image", required: false}
+                  - {label: "Alt Text", name: "alt", widget: "string", required: false}
+
+          - label: "Areas Covered"
+            name: "areas"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - {label: "Areas", name: "areas", widget: "list", field: {label: "Area", name: "area", widget: "string"}}
+              - {label: "Note", name: "note", widget: "text"}
+              - {label: "Map Box Text", name: "mapTitle", widget: "string"}
+
+          - label: "Reviews Section"
+            name: "reviewsSection"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - {label: "Facebook Note", name: "facebookNote", widget: "string"}
+              - label: "Reviews"
+                name: "reviews"
+                widget: "list"
+                fields:
+                  - {label: "Customer Name", name: "name", widget: "string"}
+                  - {label: "Source", name: "source", widget: "string"}
+                  - {label: "Review Text", name: "text", widget: "text"}
+
+          - label: "Quote Process"
+            name: "process"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - {label: "Step Title", name: "title", widget: "string"}
+                  - {label: "Step Text", name: "text", widget: "text"}
+
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Small Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - {label: "Tip Title", name: "tipTitle", widget: "string"}
+              - {label: "Tip Text", name: "tipText", widget: "text"}
+              - {label: "Second Tip Text", name: "tipText2", widget: "text"}
+              - {label: "Service Area Title", name: "serviceAreaTitle", widget: "string"}
+              - {label: "Service Area Text", name: "serviceAreaText", widget: "string"}
+              - {label: "Service Area Note", name: "serviceAreaNote", widget: "text"}
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Footer Description", name: "description", widget: "text"}
+              - {label: "Footer Bottom Text", name: "bottomText", widget: "string"}
