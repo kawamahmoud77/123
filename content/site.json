@@ -1,7 +1,7 @@
 {
   "business": {
-    "businessName": "Ali's Bolton Plastering Services tung tung",
-    "shortName": "Ali's Bolton Plastering tung tung",
+    "businessName": "Ali's Bolton Plastering Services ",
+    "shortName": "Ali's Bolton Plastering ",
     "tagline": "Bolton & Greater Manchester",
     "logoInitials": "AB",
     "phoneDisplay": "07729 763555",
@@ -108,7 +108,6 @@
     "label": "About",
     "title": "Why Choose Ali?",
     "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with. YUAP",
-    "image": "/images/uploads/img6398.jpeg",
     "imageAlt": "Ali or a plastering project in progress",
     "imagePlaceholderTitle": "Photo of Ali here",
     "imagePlaceholderText": "Or upload a project in progress photo",
