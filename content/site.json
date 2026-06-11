@@ -1,209 +1,34 @@
 {
-  "contact": {
-    "tipText": "The quickest way to get a rough quote is to send Ali a few photos or a short video of the job via WhatsApp. Show the walls, ceiling, any damage, and the room size if you can — Ali can usually give you a price from that without needing a visit first.",
-    "tipText2": "For full house quotes or larger jobs, Ali will visit in person to price it up properly before any work is confirmed.",
-    "intro": "Call, WhatsApp, email, or message on Facebook — whatever works for you. For the quickest response, a quick call or WhatsApp message is best.",
-    "serviceAreaText": "Bolton & Greater Manchester",
-    "label": "Get in Touch",
-    "serviceAreaNote": "All domestic work considered. Some commercial work taken on — ask Ali for details.",
-    "serviceAreaTitle": "Service Area",
-    "title": "Contact Ali for a Free Quote",
-    "tipTitle": "Sending Photos Makes It Easier"
-  },
   "business": {
-    "serviceArea": "Bolton & Greater Manchester",
-    "shortName": "Ali's Bolton Plastering yes",
-    "facebookUrl": "https://www.facebook.com/",
-    "businessName": "Ali's Bolton Plastering Services  Yes",
-    "phoneTel": "07729763555",
+    "businessName": "Ali's Bolton Plastering Services",
+    "shortName": "Ali's Bolton Plastering",
     "tagline": "Bolton & Greater Manchester",
-    "yearFoundedText": "17+ Years' Experience",
-    "websiteUrl": "https://alisboltonplastering.co.uk/",
-    "phoneDisplay": "07729 763555",
-    "whatsappMessage": "Hi Ali, I'd like a free plastering quote",
-    "footerYear": "2026",
     "logoInitials": "AB",
+    "phoneDisplay": "07729 763555",
+    "phoneTel": "07729763555",
     "whatsappNumber": "447729763555",
+    "whatsappMessage": "Hi Ali, I'd like a free plastering quote",
+    "email": "kawamahmoud77@gmail.com",
+    "websiteUrl": "https://alisboltonplastering.co.uk/",
+    "facebookUrl": "https://www.facebook.com/",
     "messengerUrl": "https://www.facebook.com/",
-    "email": "kawamahmoud77@gmail.com"
+    "serviceArea": "Bolton & Greater Manchester",
+    "yearFoundedText": "17+ Years' Experience",
+    "footerYear": "2026"
   },
-  "areas": {
-    "label": "Where We Work",
-    "title": "Covering Bolton & Greater Manchester",
-    "intro": "Ali is Bolton-based and covers the surrounding Greater Manchester area. If you're nearby and not sure, just ask — chances are it's doable.",
-    "areas": [
-      "Bolton",
-      "Farnworth",
-      "Horwich",
-      "Westhoughton",
-      "Little Lever",
-      "Walkden",
-      "Radcliffe",
-      "Bury",
-      "Wigan",
-      "Leigh",
-      "Atherton",
-      "Chorley",
-      "Salford",
-      "Manchester"
-    ],
-    "note": "Not sure if we cover your area? Give Ali a call or drop a WhatsApp message.",
-    "mapTitle": "Bolton & Greater Manchester Service Area"
-  },
-  "servicesSection": {
-    "label": "What We Do",
-    "title": "Plastering & Skimming Services",
-    "intro": "Small repairs to full house projects — everything done properly, left clean, and ready for decorating.",
-    "services": [
-      {
-        "title": "Skimming",
-        "description": "A smooth, thin skim coat applied over existing plaster or plasterboard — ideal for walls that need freshening up before decorating. Clean edges, flat finish.",
-        "icon": "walls"
-      },
-      {
-        "title": "Full Room & House Skimming",
-        "description": "Single rooms to complete properties — walls and ceilings skimmed smooth throughout. Great for new builds, renovations, or homes being prepared for sale or redecoration.",
-        "icon": "home"
-      },
-      {
-        "title": "Artex Covering",
-        "description": "Cover over old Artex textured ceilings with a flat, smooth plastered finish — no mess, no fuss. A popular job that transforms the look of older ceilings.",
-        "icon": "roller"
-      },
-      {
-        "title": "Ceiling Plastering",
-        "description": "From ceilings with minor cracks to full replastering — finished flat and ready for paint. All work protected and cleaned up properly before Ali leaves.",
-        "icon": "ceiling"
-      },
-      {
-        "title": "Plaster Repairs & Patch Work",
-        "description": "Hairline cracks, damp patches, holes, or damaged sections neatly repaired and blended in. Small jobs are no problem — everything gets the same attention to detail.",
-        "icon": "tools"
-      },
-      {
-        "title": "Ready for Decorating",
-        "description": "Every job is finished to decorator standard — smooth, clean, and properly cured. Ali won't rush a finish. When it's done, it's done right.",
-        "icon": "finish"
-      }
-    ]
-  },
-  "reviewsSection": {
-    "label": "Reviews",
-    "title": "What Customers Say",
-    "intro": "Ali's work speaks for itself — here's what local customers have said.",
-    "facebookNote": "Read more reviews on Facebook",
-    "reviews": [
-      {
-        "name": "Customer",
-        "source": "Facebook review",
-        "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"
-      },
-      {
-        "name": "Customer",
-        "source": "Facebook review",
-        "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"
-      },
-      {
-        "name": "Customer",
-        "source": "Facebook review",
-        "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"
-      }
-    ]
-  },
-  "about": {
-    "label": "About",
-    "title": "Why Choose Ali?",
-    "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with. YUAP ok ",
-    "imageAlt": "Ali or a plastering project in progress",
-    "imagePlaceholderTitle": "Photo of Ali here",
-    "imagePlaceholderText": "Or upload a project in progress photo",
-    "bullets": [
-      {
-        "title": "17+ years' specialist experience",
-        "text": "plastering and skimming is the sole focus, not a side service"
-      },
-      {
-        "title": "Punctual, courteous, and respectful",
-        "text": "your home is treated with care from start to finish"
-      },
-      {
-        "title": "Clean and tidy worker",
-        "text": "preparation protected, mess contained, and a proper clean-up after every job"
-      },
-      {
-        "title": "Small jobs to full house projects",
-        "text": "Ali takes every job seriously, whatever the size"
-      },
-      {
-        "title": "High-quality finish, every time",
-        "text": "walls and ceilings left flat, smooth, and genuinely ready for decorating"
-      },
-      {
-        "title": "Free, no-obligation quotes",
-        "text": "call or send photos via WhatsApp"
-      }
-    ]
-  },
-  "process": {
-    "label": "How It Works",
-    "title": "Getting a Free Quote Is Simple",
-    "intro": "Three steps and you're done. No hard sell, no hassle.",
-    "steps": [
-      {
-        "title": "Call or WhatsApp Ali",
-        "text": "Ring 07729 763555 or send a WhatsApp message — whichever suits you best."
-      },
-      {
-        "title": "Send Photos or a Video",
-        "text": "Send a few photos or a quick video of the job via WhatsApp. That's usually enough for Ali to give you a rough price straight away."
-      },
-      {
-        "title": "Get Your Free Quote",
-        "text": "Ali will come back to you with a price. If needed, he'll arrange a visit to take a proper look before confirming the quote."
-      }
-    ]
-  },
-  "gallerySection": {
-    "label": "Our Work",
-    "title": "Before & After Gallery",
-    "intro": "Real jobs, real results. Photos added from ongoing work — check back as the gallery grows.",
-    "items": [
-      {
-        "caption": "Ceiling skimmed smooth",
-        "alt": "Ceiling skimmed smooth by Ali's Bolton Plastering Services"
-      },
-      {
-        "caption": "Artex covered & skimmed flat",
-        "alt": "Artex ceiling covered and skimmed flat"
-      },
-      {
-        "caption": "Full room ready for decorating",
-        "alt": "Full room skimmed and ready for decorating"
-      },
-      {
-        "caption": "Plaster repair patched in",
-        "alt": "Plaster repair and patch work"
-      },
-      {
-        "caption": "New plasterboard skimmed",
-        "alt": "New plasterboard skimmed smooth"
-      },
-      {
-        "caption": "Clean finish around edges",
-        "alt": "Clean plaster finish around room edges"
-      }
-    ]
+  "seo": {
+    "pageTitle": "Ali's Bolton Plastering Services | Plasterer Bolton & Greater Manchester",
+    "description": "Ali's Bolton Plastering Services — reliable skimming, ceiling plastering, artex covering and plaster repairs across Bolton & Greater Manchester. 17+ years' experience. Free quotes.yueoffm"
   },
   "hero": {
-    "imagePlaceholderTitle": "Your job photos here",
     "badge": "Based in Bolton · Covering Greater Manchester",
-    "imagePlaceholderText": "Upload a real plastering job photo in the admin panel",
     "headlineLine1": "Ali's Bolton",
     "headlineLine2": "Plastering Services",
+    "highlightWord": "Ali's",
     "intro": "Clean, reliable plastering and skimming across Bolton & Greater Manchester. From a single repair to a full house — quality workmanship, tidy finish, free quotes.",
     "imageAlt": "Freshly plastered room by Ali's Bolton Plastering Services",
-    "image": "/images/uploads/img6398.jpeg",
-    "highlightWord": "Ali's",
+    "imagePlaceholderTitle": "Your job photos here",
+    "imagePlaceholderText": "Upload a real plastering job photo in the admin panel",
     "stats": [
       {
         "number": "17+",
@@ -241,12 +66,186 @@
       "icon": "clock"
     }
   ],
+  "servicesSection": {
+    "label": "What We Do",
+    "title": "Plastering & Skimming Services",
+    "intro": "Small repairs to full house projects — everything done properly, left clean, and ready for decorating.",
+    "services": [
+      {
+        "title": "Skimming",
+        "description": "A smooth, thin skim coat applied over existing plaster or plasterboard — ideal for walls that need freshening up before decorating. Clean edges, flat finish.",
+        "icon": "walls"
+      },
+      {
+        "title": "Full Room & House Skimming",
+        "description": "Single rooms to complete properties — walls and ceilings skimmed smooth throughout. Great for new builds, renovations, or homes being prepared for sale or redecoration.",
+        "icon": "home"
+      },
+      {
+        "title": "Artex Covering",
+        "description": "Cover over old Artex textured ceilings with a flat, smooth plastered finish — no mess, no fuss. A popular job that transforms the look of older ceilings.",
+        "icon": "roller"
+      },
+      {
+        "title": "Ceiling Plastering",
+        "description": "From ceilings with minor cracks to full replastering — finished flat and ready for paint. All work protected and cleaned up properly before Ali leaves.",
+        "icon": "ceiling"
+      },
+      {
+        "title": "Plaster Repairs & Patch Work",
+        "description": "Hairline cracks, damp patches, holes, or damaged sections neatly repaired and blended in. Small jobs are no problem — everything gets the same attention to detail.",
+        "icon": "tools"
+      },
+      {
+        "title": "Ready for Decorating",
+        "description": "Every job is finished to decorator standard — smooth, clean, and properly cured. Ali won't rush a finish. When it's done, it's done right.",
+        "icon": "finish"
+      }
+    ]
+  },
+  "about": {
+    "label": "About",
+    "title": "Why Choose Ali?",
+    "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with. YUAP ok ",
+    "imageAlt": "Ali or a plastering project in progress",
+    "imagePlaceholderTitle": "Photo of Ali here",
+    "imagePlaceholderText": "Or upload a project in progress photo",
+    "bullets": [
+      {
+        "title": "17+ years' specialist experience",
+        "text": "plastering and skimming is the sole focus, not a side service"
+      },
+      {
+        "title": "Punctual, courteous, and respectful",
+        "text": "your home is treated with care from start to finish"
+      },
+      {
+        "title": "Clean and tidy worker",
+        "text": "preparation protected, mess contained, and a proper clean-up after every job"
+      },
+      {
+        "title": "Small jobs to full house projects",
+        "text": "Ali takes every job seriously, whatever the size"
+      },
+      {
+        "title": "High-quality finish, every time",
+        "text": "walls and ceilings left flat, smooth, and genuinely ready for decorating"
+      },
+      {
+        "title": "Free, no-obligation quotes",
+        "text": "call or send photos via WhatsApp"
+      }
+    ]
+  },
+  "gallerySection": {
+    "label": "Our Work",
+    "title": "Before & After Gallery",
+    "intro": "Real jobs, real results. Photos added from ongoing work — check back as the gallery grows.",
+    "items": [
+      {
+        "caption": "Ceiling skimmed smooth",
+        "alt": "Ceiling skimmed smooth by Ali's Bolton Plastering Services"
+      },
+      {
+        "caption": "Artex covered & skimmed flat",
+        "alt": "Artex ceiling covered and skimmed flat"
+      },
+      {
+        "caption": "Full room ready for decorating",
+        "alt": "Full room skimmed and ready for decorating"
+      },
+      {
+        "caption": "Plaster repair patched in",
+        "alt": "Plaster repair and patch work"
+      },
+      {
+        "caption": "New plasterboard skimmed",
+        "alt": "New plasterboard skimmed smooth"
+      },
+      {
+        "caption": "Clean finish around edges",
+        "alt": "Clean plaster finish around room edges"
+      }
+    ]
+  },
+  "areas": {
+    "label": "Where We Work",
+    "title": "Covering Bolton & Greater Manchester",
+    "intro": "Ali is Bolton-based and covers the surrounding Greater Manchester area. If you're nearby and not sure, just ask — chances are it's doable.",
+    "areas": [
+      "Bolton",
+      "Farnworth",
+      "Horwich",
+      "Westhoughton",
+      "Little Lever",
+      "Walkden",
+      "Radcliffe",
+      "Bury",
+      "Wigan",
+      "Leigh",
+      "Atherton",
+      "Chorley",
+      "Salford",
+      "Manchester"
+    ],
+    "note": "Not sure if we cover your area? Give Ali a call or drop a WhatsApp message.",
+    "mapTitle": "Bolton & Greater Manchester Service Area"
+  },
+  "reviewsSection": {
+    "label": "Reviews",
+    "title": "What Customers Say",
+    "intro": "Ali's work speaks for itself — here's what local customers have said.",
+    "facebookNote": "Read more reviews on Facebook",
+    "reviews": [
+      {
+        "name": "Customer",
+        "source": "Facebook review",
+        "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"
+      },
+      {
+        "name": "Customer",
+        "source": "Facebook review",
+        "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"
+      },
+      {
+        "name": "Customer",
+        "source": "Facebook review",
+        "text": "[Insert real customer review from Facebook here. Delete this placeholder once you have the actual text.]"
+      }
+    ]
+  },
+  "process": {
+    "label": "How It Works",
+    "title": "Getting a Free Quote Is Simple",
+    "intro": "Three steps and you're done. No hard sell, no hassle.",
+    "steps": [
+      {
+        "title": "Call or WhatsApp Ali",
+        "text": "Ring 07729 763555 or send a WhatsApp message — whichever suits you best."
+      },
+      {
+        "title": "Send Photos or a Video",
+        "text": "Send a few photos or a quick video of the job via WhatsApp. That's usually enough for Ali to give you a rough price straight away."
+      },
+      {
+        "title": "Get Your Free Quote",
+        "text": "Ali will come back to you with a price. If needed, he'll arrange a visit to take a proper look before confirming the quote."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Get in Touch",
+    "title": "Contact Ali for a Free Quote",
+    "intro": "Call, WhatsApp, email, or message on Facebook — whatever works for you. For the quickest response, a quick call or WhatsApp message is best.",
+    "tipTitle": "Sending Photos Makes It Easier",
+    "tipText": "The quickest way to get a rough quote is to send Ali a few photos or a short video of the job via WhatsApp. Show the walls, ceiling, any damage, and the room size if you can — Ali can usually give you a price from that without needing a visit first.",
+    "tipText2": "For full house quotes or larger jobs, Ali will visit in person to price it up properly before any work is confirmed.",
+    "serviceAreaTitle": "Service Area",
+    "serviceAreaText": "Bolton & Greater Manchester",
+    "serviceAreaNote": "All domestic work considered. Some commercial work taken on — ask Ali for details."
+  },
   "footer": {
     "description": "Plastering & skimming specialist serving Bolton & Greater Manchester for over 17 years.",
     "bottomText": "Plasterer Bolton · Skimming Bolton · Artex Covering · Greater Manchester"
-  },
-  "seo": {
-    "pageTitle": "Ali's Bolton Plastering Services | Plasterer Bolton & Greater Manchester",
-    "description": "Ali's Bolton Plastering Services — reliable skimming, ceiling plastering, artex covering and plaster repairs across Bolton & Greater Manchester. 17+ years' experience. Free quotes.yueoffm"
   }
 }
