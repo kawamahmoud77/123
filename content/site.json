@@ -4,6 +4,7 @@
     "shortName": "Ali's Bolton Plastering",
     "tagline": "Bolton & Greater Manchester",
     "logoInitials": "AB",
+    "logoImage": "images/uploads/logo-final-photo-1.png",
     "logoAlt": "Ali's Bolton Plastering logo",
     "phoneDisplay": "07729 763555",
     "phoneTel": "07729763555",
@@ -209,6 +210,7 @@
       "Manchester"
     ],
     "note": "Not sure if we cover your area? Give Ali a call or drop a WhatsApp message.",
+    "mapImage": "images/uploads/screenshot-2026-06-12-104621.png",
     "mapAlt": "Map showing the service radius for Ali's Bolton Plastering Services",
     "mapPlaceholderTitle": "Service area map here",
     "mapPlaceholderText": "Upload a 718 x 561 px map image."
@@ -217,6 +219,7 @@
     "label": "Reviews",
     "title": "What Customers Say",
     "intro": "Ali's work speaks for itself — see real Facebook reviews from local customers.",
+    "collageImage": "images/uploads/unnamed.png",
     "collageAlt": "Collage of Facebook reviews for Ali's Bolton Plastering Services",
     "collagePlaceholderTitle": "Facebook review collage here",
     "collagePlaceholderText": "Upload a 1272 x 1024 px review collage image."
