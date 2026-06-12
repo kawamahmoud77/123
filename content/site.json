@@ -92,12 +92,7 @@
         "icon": "home",
         "photos": [
           {
-            "image": "images/uploads/img2798.jpg",
-            "caption": "Photo 1"
-          },
-          {
-            "image": "images/uploads/img2902-1.jpg",
-            "caption": "Photo 2"
+            "image": "images/uploads/chatgpt-image-jun-12-2026-075723-pm.png"
           }
         ]
       },
@@ -159,6 +154,7 @@
     "label": "About",
     "title": "Why Choose Ali?",
     "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with.",
+    "image": "images/uploads/49133165841438929292694788352844552951385823n.jpg",
     "imageAlt": "Example plastering job by Ali's Bolton Plastering Services",
     "imagePlaceholderTitle": "Job image here",
     "imagePlaceholderText": "Upload a 1385 x 1847 px vertical job image.",
