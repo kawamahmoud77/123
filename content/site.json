@@ -79,9 +79,11 @@
         "icon": "trowel",
         "photos": [
           {
+            "image": "images/uploads/img1105.jpg",
             "caption": "Photo 1"
           },
           {
+            "image": "images/uploads/img4090.jpg",
             "caption": "Photo 2"
           }
         ]
@@ -117,9 +119,11 @@
         "icon": "ceiling",
         "photos": [
           {
+            "image": "images/uploads/ac76b140-3e9c-4fc6-a247-bb0110ad560d.jpg",
             "caption": "Photo 1"
           },
           {
+            "image": "images/uploads/a28dfd8d-f3a9-48ae-bfa8-a0eb958464c9.jpg",
             "caption": "Photo 2"
           }
         ]
@@ -145,9 +149,11 @@
         "icon": "sparkle",
         "photos": [
           {
+            "image": "images/uploads/img0467.jpg",
             "caption": "Photo 1"
           },
           {
+            "image": "images/uploads/img0734.jpg",
             "caption": "Photo 2"
           }
         ]
@@ -157,7 +163,7 @@
   "about": {
     "label": "About",
     "title": "Why Choose Ali?",
-    "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with.",
+    "intro": "We have been plastering and skimming in Bolton and across Greater Manchester for over 17 years. We have built up our reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with.",
     "image": "images/uploads/49133165841438929292694788352844552951385823n.jpg",
     "imageAlt": "Example plastering job by Ali's Bolton Plastering Services",
     "imagePlaceholderTitle": "Job image here",
