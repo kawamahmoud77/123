@@ -12,7 +12,7 @@
     "whatsappMessage": "Hi Ali, I'd like a free plastering quote",
     "email": "kawamahmoud77@gmail.com",
     "websiteUrl": "https://alisboltonplastering.co.uk/",
-    "facebookUrl": "https://www.facebook.com/",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100064878032808",
     "serviceArea": "Bolton & Greater Manchester",
     "yearFoundedText": "17+ Years' Experience",
     "footerYear": "2026"
@@ -27,21 +27,46 @@
     "headlineLine2": "Plastering Services",
     "highlightWord": "Ali's",
     "intro": "Clean, reliable plastering and skimming across Bolton & Greater Manchester. From a single repair to a full house — quality workmanship, tidy finish, free quotes.",
-    "image": "",
-    "imageAlt": "Ali's Bolton Plastering main sign image",
+    "image": "images/uploads/hero-cover-professional-plastering.png",
+    "imageAlt": "Professional plastering services sign for Ali Plastering",
     "imagePlaceholderTitle": "Main sign image here",
-    "imagePlaceholderText": "Upload a 946 x 400 px sign image for the main cover photo.",
+    "imagePlaceholderText": "Upload a 1536 x 1024 px main cover image.",
     "stats": [
-      { "number": "17+", "label": "Years' experience" },
-      { "number": "Free", "label": "Quotes, always" },
-      { "number": "Local", "label": "Bolton-based" }
+      {
+        "number": "17+",
+        "label": "Years' experience"
+      },
+      {
+        "number": "Free",
+        "label": "Quotes, always"
+      },
+      {
+        "number": "Local",
+        "label": "Bolton-based"
+      }
     ]
   },
   "trustPoints": [
-    { "title": "17+ Years' Experience", "text": "Plastering specialist since 2007", "icon": "star" },
-    { "title": "Free Quotes", "text": "No obligation, no pressure", "icon": "check" },
-    { "title": "Clean & Tidy", "text": "Respectful of your home", "icon": "home" },
-    { "title": "Punctual & Reliable", "text": "Bolton & Greater Manchester", "icon": "clock" }
+    {
+      "title": "17+ Years' Experience",
+      "text": "Plastering specialist since 2007",
+      "icon": "star"
+    },
+    {
+      "title": "Free Quotes",
+      "text": "No obligation, no pressure",
+      "icon": "check"
+    },
+    {
+      "title": "Clean & Tidy",
+      "text": "Respectful of your home",
+      "icon": "home"
+    },
+    {
+      "title": "Punctual & Reliable",
+      "text": "Bolton & Greater Manchester",
+      "icon": "clock"
+    }
   ],
   "servicesSection": {
     "label": "What We Do",
@@ -95,12 +120,30 @@
     "imagePlaceholderTitle": "Job image here",
     "imagePlaceholderText": "Upload a 1385 x 1847 px vertical job image.",
     "bullets": [
-      { "title": "17+ years' specialist experience", "text": "plastering and skimming is the sole focus, not a side service" },
-      { "title": "Punctual, courteous, and respectful", "text": "your home is treated with care from start to finish" },
-      { "title": "Clean and tidy worker", "text": "preparation protected, mess contained, and a proper clean-up after every job" },
-      { "title": "Small jobs to full house projects", "text": "Ali takes every job seriously, whatever the size" },
-      { "title": "High-quality finish, every time", "text": "walls and ceilings left flat, smooth, and genuinely ready for decorating" },
-      { "title": "Free, no-obligation quotes", "text": "call or send photos via WhatsApp" }
+      {
+        "title": "17+ years' specialist experience",
+        "text": "plastering and skimming is the sole focus, not a side service"
+      },
+      {
+        "title": "Punctual, courteous, and respectful",
+        "text": "your home is treated with care from start to finish"
+      },
+      {
+        "title": "Clean and tidy worker",
+        "text": "preparation protected, mess contained, and a proper clean-up after every job"
+      },
+      {
+        "title": "Small jobs to full house projects",
+        "text": "Ali takes every job seriously, whatever the size"
+      },
+      {
+        "title": "High-quality finish, every time",
+        "text": "walls and ceilings left flat, smooth, and genuinely ready for decorating"
+      },
+      {
+        "title": "Free, no-obligation quotes",
+        "text": "call or send photos via WhatsApp"
+      }
     ]
   },
   "areas": {
@@ -108,7 +151,20 @@
     "title": "Covering Bolton & Greater Manchester",
     "intro": "Ali is Bolton-based and covers the surrounding area. If you're nearby and not sure, just ask — chances are it's doable.",
     "areas": [
-      "Bolton", "Farnworth", "Horwich", "Westhoughton", "Little Lever", "Walkden", "Radcliffe", "Bury", "Wigan", "Leigh", "Atherton", "Chorley", "Salford", "Manchester"
+      "Bolton",
+      "Farnworth",
+      "Horwich",
+      "Westhoughton",
+      "Little Lever",
+      "Walkden",
+      "Radcliffe",
+      "Bury",
+      "Wigan",
+      "Leigh",
+      "Atherton",
+      "Chorley",
+      "Salford",
+      "Manchester"
     ],
     "note": "Not sure if we cover your area? Give Ali a call or drop a WhatsApp message.",
     "mapImage": "",
@@ -123,16 +179,26 @@
     "collageImage": "",
     "collageAlt": "Collage of Facebook reviews for Ali's Bolton Plastering Services",
     "collagePlaceholderTitle": "Facebook review collage here",
-    "collagePlaceholderText": "Upload a 1272 x 1024 px review collage image."
+    "collagePlaceholderText": "Upload a 1272 x 1024 px review collage image.",
+    "facebookReviewsUrl": "https://www.facebook.com/profile.php?id=100064878032808&sk=reviews"
   },
   "process": {
     "label": "How It Works",
     "title": "Getting a Free Quote Is Simple",
     "intro": "Three steps and you're done. No hard sell, no hassle.",
     "steps": [
-      { "title": "Call or WhatsApp Ali", "text": "Ring 07729 763555 or send a WhatsApp message — whichever suits you best." },
-      { "title": "Send Photos or a Video", "text": "Send a few photos or a quick video of the job via WhatsApp. That's usually enough for Ali to give you a rough price straight away." },
-      { "title": "Get Your Free Quote", "text": "Ali will come back to you with a price. If needed, he'll arrange a visit to take a proper look before confirming the quote." }
+      {
+        "title": "Call or WhatsApp Ali",
+        "text": "Ring 07729 763555 or send a WhatsApp message — whichever suits you best."
+      },
+      {
+        "title": "Send Photos or a Video",
+        "text": "Send a few photos or a quick video of the job via WhatsApp. That's usually enough for Ali to give you a rough price straight away."
+      },
+      {
+        "title": "Get Your Free Quote",
+        "text": "Ali will come back to you with a price. If needed, he'll arrange a visit to take a proper look before confirming the quote."
+      }
     ]
   },
   "contact": {
