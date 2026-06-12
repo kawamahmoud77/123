@@ -4,7 +4,6 @@
     "shortName": "Ali's Bolton Plastering",
     "tagline": "Bolton & Greater Manchester",
     "logoInitials": "AB",
-    "logoImage": "",
     "logoAlt": "Ali's Bolton Plastering logo",
     "phoneDisplay": "07729 763555",
     "phoneTel": "07729763555",
@@ -79,14 +78,10 @@
         "icon": "trowel",
         "photos": [
           {
-            "image": "",
-            "caption": "Photo 1",
-            "alt": ""
+            "caption": "Photo 1"
           },
           {
-            "image": "",
-            "caption": "Photo 2",
-            "alt": ""
+            "caption": "Photo 2"
           }
         ]
       },
@@ -96,14 +91,12 @@
         "icon": "home",
         "photos": [
           {
-            "image": "",
-            "caption": "Photo 1",
-            "alt": ""
+            "image": "images/uploads/img2798.jpg",
+            "caption": "Photo 1"
           },
           {
-            "image": "",
-            "caption": "Photo 2",
-            "alt": ""
+            "image": "images/uploads/img2902-1.jpg",
+            "caption": "Photo 2"
           }
         ]
       },
@@ -113,14 +106,10 @@
         "icon": "roller",
         "photos": [
           {
-            "image": "",
-            "caption": "Photo 1",
-            "alt": ""
+            "caption": "Photo 1"
           },
           {
-            "image": "",
-            "caption": "Photo 2",
-            "alt": ""
+            "caption": "Photo 2"
           }
         ]
       },
@@ -130,14 +119,10 @@
         "icon": "ceiling",
         "photos": [
           {
-            "image": "",
-            "caption": "Photo 1",
-            "alt": ""
+            "caption": "Photo 1"
           },
           {
-            "image": "",
-            "caption": "Photo 2",
-            "alt": ""
+            "caption": "Photo 2"
           }
         ]
       },
@@ -147,14 +132,10 @@
         "icon": "repair",
         "photos": [
           {
-            "image": "",
-            "caption": "Photo 1",
-            "alt": ""
+            "caption": "Photo 1"
           },
           {
-            "image": "",
-            "caption": "Photo 2",
-            "alt": ""
+            "caption": "Photo 2"
           }
         ]
       },
@@ -164,14 +145,10 @@
         "icon": "sparkle",
         "photos": [
           {
-            "image": "",
-            "caption": "Photo 1",
-            "alt": ""
+            "caption": "Photo 1"
           },
           {
-            "image": "",
-            "caption": "Photo 2",
-            "alt": ""
+            "caption": "Photo 2"
           }
         ]
       }
@@ -181,7 +158,6 @@
     "label": "About",
     "title": "Why Choose Ali?",
     "intro": "Ali has been plastering and skimming in Bolton and across Greater Manchester for over 17 years. He's built his reputation the straightforward way — turning up on time, doing the job properly, keeping the place clean, and leaving customers with walls and ceilings they're genuinely happy with.",
-    "image": "",
     "imageAlt": "Example plastering job by Ali's Bolton Plastering Services",
     "imagePlaceholderTitle": "Job image here",
     "imagePlaceholderText": "Upload a 1385 x 1847 px vertical job image.",
@@ -233,7 +209,6 @@
       "Manchester"
     ],
     "note": "Not sure if we cover your area? Give Ali a call or drop a WhatsApp message.",
-    "mapImage": "",
     "mapAlt": "Map showing the service radius for Ali's Bolton Plastering Services",
     "mapPlaceholderTitle": "Service area map here",
     "mapPlaceholderText": "Upload a 718 x 561 px map image."
@@ -242,11 +217,9 @@
     "label": "Reviews",
     "title": "What Customers Say",
     "intro": "Ali's work speaks for itself — see real Facebook reviews from local customers.",
-    "collageImage": "",
     "collageAlt": "Collage of Facebook reviews for Ali's Bolton Plastering Services",
     "collagePlaceholderTitle": "Facebook review collage here",
-    "collagePlaceholderText": "Upload a 1272 x 1024 px review collage image.",
-    "facebookReviewsUrl": "https://www.facebook.com/profile.php?id=100064878032808&sk=reviews"
+    "collagePlaceholderText": "Upload a 1272 x 1024 px review collage image."
   },
   "process": {
     "label": "How It Works",
