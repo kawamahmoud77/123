@@ -102,9 +102,11 @@
         "icon": "roller",
         "photos": [
           {
+            "image": "images/uploads/4241b13a-4954-4db5-a2e0-b45841cfb934.jpg",
             "caption": "Photo 1"
           },
           {
+            "image": "images/uploads/f48d5294-55ed-4962-af5d-00bee28d1559.jpg",
             "caption": "Photo 2"
           }
         ]
@@ -128,9 +130,11 @@
         "icon": "repair",
         "photos": [
           {
+            "image": "images/uploads/img0092.jpg",
             "caption": "Photo 1"
           },
           {
+            "image": "images/uploads/img0071.jpg",
             "caption": "Photo 2"
           }
         ]
