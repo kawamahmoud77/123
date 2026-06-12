@@ -77,37 +77,103 @@
         "title": "Skimming",
         "description": "A smooth, thin skim coat applied over existing plaster or plasterboard — ideal for walls that need freshening up before decorating. Clean edges, flat finish.",
         "icon": "trowel",
-        "photos": []
+        "photos": [
+          {
+            "image": "",
+            "caption": "Photo 1",
+            "alt": ""
+          },
+          {
+            "image": "",
+            "caption": "Photo 2",
+            "alt": ""
+          }
+        ]
       },
       {
         "title": "Full Room & House Skimming",
         "description": "Single rooms to complete properties — walls and ceilings skimmed smooth throughout. Great for new builds, renovations, or homes being prepared for sale or redecoration.",
         "icon": "home",
-        "photos": []
+        "photos": [
+          {
+            "image": "",
+            "caption": "Photo 1",
+            "alt": ""
+          },
+          {
+            "image": "",
+            "caption": "Photo 2",
+            "alt": ""
+          }
+        ]
       },
       {
         "title": "Artex Covering",
         "description": "Cover over old Artex textured ceilings with a flat, smooth plastered finish — no mess, no fuss. A popular job that transforms the look of older ceilings.",
         "icon": "roller",
-        "photos": []
+        "photos": [
+          {
+            "image": "",
+            "caption": "Photo 1",
+            "alt": ""
+          },
+          {
+            "image": "",
+            "caption": "Photo 2",
+            "alt": ""
+          }
+        ]
       },
       {
         "title": "Ceiling Plastering",
         "description": "From ceilings with minor cracks to full replastering — finished flat and ready for paint. All work protected and cleaned up properly before Ali leaves.",
         "icon": "ceiling",
-        "photos": []
+        "photos": [
+          {
+            "image": "",
+            "caption": "Photo 1",
+            "alt": ""
+          },
+          {
+            "image": "",
+            "caption": "Photo 2",
+            "alt": ""
+          }
+        ]
       },
       {
         "title": "Plaster Repairs & Patch Work",
         "description": "Hairline cracks, damp patches, holes, or damaged sections neatly repaired and blended in. Small jobs are no problem — everything gets the same attention to detail.",
         "icon": "repair",
-        "photos": []
+        "photos": [
+          {
+            "image": "",
+            "caption": "Photo 1",
+            "alt": ""
+          },
+          {
+            "image": "",
+            "caption": "Photo 2",
+            "alt": ""
+          }
+        ]
       },
       {
         "title": "Ready for Decorating",
         "description": "Every job is finished to decorator standard — smooth, clean, and properly cured. Ali won't rush a finish. When it's done, it's done right.",
         "icon": "sparkle",
-        "photos": []
+        "photos": [
+          {
+            "image": "",
+            "caption": "Photo 1",
+            "alt": ""
+          },
+          {
+            "image": "",
+            "caption": "Photo 2",
+            "alt": ""
+          }
+        ]
       }
     ]
   },
