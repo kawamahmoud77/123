@@ -1,6 +1,6 @@
 media:
   input: images/uploads
-  output: /images/uploads
+  output: images/uploads
   rename: safe
   categories: [image]
 
@@ -18,15 +18,16 @@ content:
           - { name: businessName, label: Business name, type: string }
           - { name: shortName, label: Short name, type: string }
           - { name: tagline, label: Tagline / area, type: string }
-          - { name: logoInitials, label: Logo initials, type: string }
+          - { name: logoInitials, label: Backup logo initials, type: string }
+          - { name: logoImage, label: Logo image - square PNG 1:1, type: image, required: false }
+          - { name: logoAlt, label: Logo alt text, type: string, required: false }
           - { name: phoneDisplay, label: Phone display, type: string }
           - { name: phoneTel, label: Phone link number, type: string }
           - { name: whatsappNumber, label: WhatsApp number, type: string }
           - { name: whatsappMessage, label: WhatsApp opening message, type: string }
-          - { name: email, label: Email, type: string }
+          - { name: email, label: Email - used only for schema/records, type: string, required: false }
           - { name: websiteUrl, label: Website URL, type: string }
           - { name: facebookUrl, label: Facebook page URL, type: string, required: false }
-          - { name: messengerUrl, label: Messenger URL, type: string, required: false }
           - { name: serviceArea, label: Service area, type: string }
           - { name: yearFoundedText, label: Experience text, type: string }
           - { name: footerYear, label: Footer year, type: string }
@@ -39,16 +40,16 @@ content:
           - { name: description, label: Google description, type: text }
 
       - name: hero
-        label: Hero section
+        label: Hero / main cover section
         type: object
         fields:
-          - { name: badge, label: Badge, type: string }
+          - { name: badge, label: Small badge text, type: string }
           - { name: headlineLine1, label: Headline line 1, type: string }
           - { name: headlineLine2, label: Headline line 2, type: string }
           - { name: highlightWord, label: Highlighted word, type: string, required: false }
           - { name: intro, label: Intro text, type: text }
-          - { name: image, label: Hero photo, type: image, required: false }
-          - { name: imageAlt, label: Hero photo alt text, type: string, required: false }
+          - { name: image, label: Main sign image - 946 x 400 px, type: image, required: false }
+          - { name: imageAlt, label: Main sign image alt text, type: string, required: false }
           - { name: imagePlaceholderTitle, label: Placeholder title, type: string, required: false }
           - { name: imagePlaceholderText, label: Placeholder text, type: string, required: false }
           - name: stats
@@ -79,14 +80,14 @@ content:
               values: [star, check, home, clock]
 
       - name: servicesSection
-        label: Services section
+        label: What We Do / services with slideshows
         type: object
         fields:
           - { name: label, label: Small label, type: string }
           - { name: title, label: Title, type: string }
           - { name: intro, label: Intro, type: text }
           - name: services
-            label: Services
+            label: Service cards
             type: object
             list:
               collapsible:
@@ -99,17 +100,29 @@ content:
                 label: Icon
                 type: select
                 options:
-                  values: [walls, home, roller, ceiling, tools, finish]
+                  values: [trowel, home, roller, ceiling, repair, sparkle, walls]
+              - name: photos
+                label: Photos for this service - 480 x 640 px vertical 3:4
+                type: object
+                required: false
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{caption}"
+                fields:
+                  - { name: image, label: Photo - 480 x 640 px, type: image }
+                  - { name: caption, label: Caption, type: string, required: false }
+                  - { name: alt, label: Alt text, type: string, required: false }
 
       - name: about
-        label: About section
+        label: About / job image section
         type: object
         fields:
           - { name: label, label: Small label, type: string }
           - { name: title, label: Title, type: string }
           - { name: intro, label: Intro, type: text }
-          - { name: image, label: Photo, type: image, required: false }
-          - { name: imageAlt, label: Photo alt text, type: string, required: false }
+          - { name: image, label: Job image - 1385 x 1847 px, type: image, required: false }
+          - { name: imageAlt, label: Job image alt text, type: string, required: false }
           - { name: imagePlaceholderTitle, label: Placeholder title, type: string, required: false }
           - { name: imagePlaceholderText, label: Placeholder text, type: string, required: false }
           - name: bullets
@@ -123,55 +136,31 @@ content:
               - { name: title, label: Bold part, type: string }
               - { name: text, label: Normal text, type: text }
 
-      - name: gallerySection
-        label: Gallery section
-        type: object
-        fields:
-          - { name: label, label: Small label, type: string }
-          - { name: title, label: Title, type: string }
-          - { name: intro, label: Intro, type: text }
-          - name: items
-            label: Gallery photos
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{caption}"
-            fields:
-              - { name: caption, label: Caption, type: string }
-              - { name: image, label: Photo, type: image, required: false }
-              - { name: alt, label: Alt text, type: string, required: false }
-
       - name: areas
-        label: Areas covered
+        label: Service area / map section
         type: object
         fields:
           - { name: label, label: Small label, type: string }
           - { name: title, label: Title, type: string }
           - { name: intro, label: Intro, type: text }
-          - { name: areas, label: Areas, type: string, list: true }
-          - { name: note, label: Note, type: text }
-          - { name: mapTitle, label: Map box text, type: string }
+          - { name: areas, label: Areas/cities, type: string, list: true }
+          - { name: note, label: Small area note, type: text }
+          - { name: mapImage, label: Map image - 718 x 561 px, type: image, required: false }
+          - { name: mapAlt, label: Map image alt text, type: string, required: false }
+          - { name: mapPlaceholderTitle, label: Placeholder title, type: string, required: false }
+          - { name: mapPlaceholderText, label: Placeholder text, type: string, required: false }
 
       - name: reviewsSection
-        label: Reviews section
+        label: Reviews collage section
         type: object
         fields:
           - { name: label, label: Small label, type: string }
           - { name: title, label: Title, type: string }
           - { name: intro, label: Intro, type: text }
-          - { name: facebookNote, label: Facebook note, type: string }
-          - name: reviews
-            label: Reviews
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{name}"
-            fields:
-              - { name: name, label: Customer name, type: string }
-              - { name: source, label: Source, type: string }
-              - { name: text, label: Review text, type: text }
+          - { name: collageImage, label: Facebook review collage - 1272 x 1024 px, type: image, required: false }
+          - { name: collageAlt, label: Collage alt text, type: string, required: false }
+          - { name: collagePlaceholderTitle, label: Placeholder title, type: string, required: false }
+          - { name: collagePlaceholderText, label: Placeholder text, type: string, required: false }
 
       - name: process
         label: Quote process
@@ -201,9 +190,6 @@ content:
           - { name: tipTitle, label: Tip title, type: string }
           - { name: tipText, label: Tip text, type: text }
           - { name: tipText2, label: Second tip text, type: text }
-          - { name: serviceAreaTitle, label: Service area title, type: string }
-          - { name: serviceAreaText, label: Service area text, type: string }
-          - { name: serviceAreaNote, label: Service area note, type: text }
 
       - name: footer
         label: Footer
