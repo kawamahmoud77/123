@@ -11,9 +11,7 @@
   <meta property="og:description" content="Clean, reliable plastering and skimming across Bolton & Greater Manchester. Free quotes — call or WhatsApp Ali." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://alisboltonplastering.co.uk/" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="images/uploads/webp1-1.webp" type="image/webp" fetchpriority="high" />
   <script id="schema-json" type="application/ld+json"></script>
   <style>
     :root {
@@ -21,7 +19,7 @@
       --teal:#2a8fa8; --teal-light:#35aac8; --white:#ffffff; --off-white:#f5f7fa; --light-grey:#e8ecf0;
       --mid-grey:#8a96a3; --text-dark:#1a2332; --text-body:#3d4d5c; --text-light:#6b7a8a;
       --whatsapp:#25d366; --whatsapp-dark:#18a84e; --phone-red:#e53935; --phone-red-dark:#c62828; --facebook:#1877f2;
-      --font:'Inter',system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      --font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
       --radius:10px; --radius-lg:16px; --shadow-sm:0 2px 8px rgba(0,0,0,.08); --shadow-md:0 4px 20px rgba(0,0,0,.12); --shadow-lg:0 8px 40px rgba(0,0,0,.18);
       --max-w:1120px; --section-pad:56px 20px;
     }
@@ -35,6 +33,7 @@
     .section-title.light{color:var(--white)} .section-intro{font-size:1rem;color:var(--text-light);max-width:640px;margin-bottom:28px}.section-intro.light{color:rgba(255,255,255,.74)}
 
     .icon-svg{width:1.1em;height:1.1em;display:block;fill:currentColor;stroke:currentColor;stroke-width:0}
+    [data-icon]{display:inline-flex;width:1.1em;height:1.1em;align-items:center;justify-content:center;flex:0 0 1.1em}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 22px;border-radius:var(--radius);font-size:.96rem;font-weight:800;cursor:pointer;border:none;transition:transform .15s ease,box-shadow .15s ease,background .15s ease,color .15s ease;white-space:nowrap;text-decoration:none}
     .btn:hover{transform:translateY(-2px)}.btn:active{transform:translateY(0)}
     .btn-whatsapp{background:var(--whatsapp);color:var(--white);box-shadow:0 8px 30px rgba(37,211,102,.32),0 0 26px rgba(37,211,102,.18)}
@@ -104,8 +103,8 @@
   </nav>
 
   <section id="hero" aria-label="Hero"><div class="hero-bg-pattern" aria-hidden="true"></div><div class="hero-inner">
-    <div class="hero-content"><div class="hero-badge"><div class="hero-badge-dot" aria-hidden="true"></div><span id="hero-badge-text">Based in Bolton · Covering Greater Manchester</span></div><h1 class="hero-h1" id="hero-title"><span class="highlight">Ali's</span> Bolton<br />Plastering Services</h1><p class="hero-sub" id="hero-intro">Clean, reliable plastering and skimming across Bolton & Greater Manchester.</p><div class="hero-ctas"><a href="tel:07729763555" class="btn btn-phone" data-phone-link><span data-icon="phone"></span>Call <span data-phone-display>07729 763555</span></a><a href="https://wa.me/447729763555" class="btn btn-whatsapp" target="_blank" rel="noopener" data-wa-link><span data-icon="whatsapp"></span>WhatsApp for a Free Quote</a></div><div class="hero-stats" id="hero-stats"></div></div>
-    <div class="hero-image-area" aria-hidden="true"><div class="hero-photo-frame" id="hero-image"></div><div class="hero-photo-badge"><div class="num" id="hero-stat-badge-num">17+</div><div class="label" id="hero-stat-badge-label">Years' experience</div></div></div>
+    <div class="hero-content"><div class="hero-badge"><div class="hero-badge-dot" aria-hidden="true"></div><span id="hero-badge-text">Based in Bolton · Covering Greater Manchester</span></div><h1 class="hero-h1" id="hero-title"><span class="highlight">Ali's</span> Bolton<br />Plastering Services</h1><p class="hero-sub" id="hero-intro">Clean, reliable plastering and skimming across Bolton & Greater Manchester.</p><div class="hero-ctas"><a href="tel:07729763555" class="btn btn-phone" data-phone-link><span data-icon="phone"></span>Call <span data-phone-display>07729 763555</span></a><a href="https://wa.me/447729763555" class="btn btn-whatsapp" target="_blank" rel="noopener" data-wa-link><span data-icon="whatsapp"></span>WhatsApp for a Free Quote</a></div><div class="hero-stats" id="hero-stats"><div class="hero-stat"><span class="hero-stat-num">17+</span><span class="hero-stat-label">Years&#x27; experience</span></div><div class="hero-stat"><span class="hero-stat-num">Free</span><span class="hero-stat-label">Quotes, always</span></div><div class="hero-stat"><span class="hero-stat-num">Local</span><span class="hero-stat-label">Bolton-based</span></div></div></div>
+    <div class="hero-image-area" aria-hidden="true"><div class="hero-photo-frame" id="hero-image"><img src="images/uploads/webp1-1.webp" alt="Professional plastering services sign for Ali Plastering" width="667" height="445" loading="eager" fetchpriority="high" decoding="async"></div><div class="hero-photo-badge"><div class="num" id="hero-stat-badge-num">17+</div><div class="label" id="hero-stat-badge-label">Years' experience</div></div></div>
   </div></section>
 
   <section id="trust" aria-label="Trust points"><div class="trust-inner" id="trust-items"></div></section>
@@ -159,7 +158,16 @@
     const icon = name => icons[name] || icons.check;
     function injectIcons(){ $$('[data-icon]').forEach(el => { el.innerHTML = icon(el.getAttribute('data-icon')); }); }
     function imagePlaceholder(title, text, light=false){ return `<div class="photo-placeholder ${light?'light-placeholder':''}"><div class="photo-placeholder-icon">${icon('sparkle')}</div><p><strong>${escapeHTML(title)}</strong>${escapeHTML(text || '')}</p></div>`; }
-    function imageOrPlaceholder(src, alt, title, text, light=false){ const path = cleanAssetPath(src); return path ? `<img src="${escapeHTML(path)}" alt="${escapeHTML(alt || '')}" loading="lazy">` : imagePlaceholder(title || 'Upload image here', text || '', light); }
+    function imageOrPlaceholder(src, alt, title, text, light=false, options={}){
+      const path = cleanAssetPath(src);
+      if(!path) return imagePlaceholder(title || 'Upload image here', text || '', light);
+      const loading = options.loading ? ` loading="${escapeHTML(options.loading)}"` : ' loading="lazy"';
+      const fetchPriority = options.fetchpriority ? ` fetchpriority="${escapeHTML(options.fetchpriority)}"` : '';
+      const decoding = options.decoding ? ` decoding="${escapeHTML(options.decoding)}"` : ' decoding="async"';
+      const width = options.width ? ` width="${escapeHTML(String(options.width))}"` : '';
+      const height = options.height ? ` height="${escapeHTML(String(options.height))}"` : '';
+      return `<img src="${escapeHTML(path)}" alt="${escapeHTML(alt || '')}"${width}${height}${loading}${fetchPriority}${decoding}>`;
+    }
 
     function updateSEO(site){
       const title = site.seo?.pageTitle || site.business?.businessName || document.title;
@@ -230,7 +238,7 @@
       const highlighted = highlight && line1.includes(highlight) ? line1.replace(highlight, `<span class="highlight">${highlight}</span>`) : line1;
       $('#hero-title').innerHTML = `${highlighted}<br>${escapeHTML(site.hero?.headlineLine2 || '')}`;
       $('#hero-intro').textContent = site.hero?.intro || '';
-      $('#hero-image').innerHTML = imageOrPlaceholder(site.hero?.image, site.hero?.imageAlt, site.hero?.imagePlaceholderTitle, site.hero?.imagePlaceholderText);
+      $('#hero-image').innerHTML = imageOrPlaceholder(site.hero?.image, site.hero?.imageAlt, site.hero?.imagePlaceholderTitle, site.hero?.imagePlaceholderText, false, {loading:'eager', fetchpriority:'high', decoding:'async', width:667, height:445});
       $('#hero-stat-badge-num').textContent = withFallback(site.hero?.stats?.[0]?.number, '17+');
       $('#hero-stat-badge-label').textContent = withFallback(site.hero?.stats?.[0]?.label, 'Years experience');
       $('#hero-stats').innerHTML = (site.hero?.stats || []).map(stat => `<div class="hero-stat"><span class="hero-stat-num">${escapeHTML(stat.number)}</span><span class="hero-stat-label">${escapeHTML(stat.label)}</span></div>`).join('');
@@ -280,7 +288,7 @@
       if('IntersectionObserver' in window){ const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('visible'); observer.unobserve(entry.target); } }); }, {threshold:.12, rootMargin:'0px 0px -40px 0px'}); reveals.forEach(el => observer.observe(el)); } else { reveals.forEach(el => el.classList.add('visible')); }
     }
     async function loadSite(){
-      try{ const response = await fetch('content/site.json', {cache:'no-store'}); if(!response.ok) throw new Error('Could not load content/site.json'); render(await response.json()); }
+      try{ const response = await fetch('content/site.json'); if(!response.ok) throw new Error('Could not load content/site.json'); render(await response.json()); }
       catch(error){ console.error('Website content could not be loaded.', error); document.body.insertAdjacentHTML('afterbegin','<div style="padding:14px;background:#fff3cd;color:#856404;text-align:center;font-weight:700;">Content file could not be loaded. Check content/site.json.</div>'); }
     }
     const burger = document.getElementById('burger'); const mobileMenu = document.getElementById('mobile-menu');
