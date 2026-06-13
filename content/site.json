@@ -4,7 +4,7 @@
     "shortName": "Ali's Bolton Plastering",
     "tagline": "Bolton & Greater Manchester",
     "logoInitials": "AB",
-    "logoImage": "images/uploads/logo-final-photo-1.png",
+    "logoImage": "images/uploads/logo-final-photo.webp",
     "logoAlt": "Ali's Bolton Plastering logo",
     "phoneDisplay": "07729 763555",
     "phoneTel": "07729763555",
@@ -27,7 +27,7 @@
     "headlineLine2": "Plastering Services",
     "highlightWord": "Ali's",
     "intro": "Clean, reliable plastering and skimming across Bolton & Greater Manchester. From a single repair to a full house — quality workmanship, tidy finish, free quotes.",
-    "image": "images/uploads/hero-cover-professional-plastering.png",
+    "image": "images/uploads/webp1.webp",
     "imageAlt": "Professional plastering services sign for Ali Plastering",
     "imagePlaceholderTitle": "Main sign image here",
     "imagePlaceholderText": "Upload a 1536 x 1024 px main cover image.",
@@ -79,7 +79,7 @@
         "icon": "trowel",
         "photos": [
           {
-            "image": "images/uploads/img1105.jpg",
+            "image": "images/uploads/img1105.webp",
             "caption": "Photo 1"
           },
           {
@@ -94,7 +94,8 @@
         "icon": "home",
         "photos": [
           {
-            "image": "images/uploads/chatgpt-image-jun-12-2026-075723-pm.png"
+            "image": "images/uploads/webp2.webp",
+            "caption": "Photo 1"
           }
         ]
       },
